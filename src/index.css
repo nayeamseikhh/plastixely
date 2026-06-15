@@ -19,3 +19,24 @@
   --breakpoint-2xl: 1400px;
   --breakpoint-3xl: 1700px;
 }
+
+.custom-dropdown .ant-dropdown-menu {
+  background-color: #334155;
+  border-radius: 12px;
+  padding: 8px;
+  color: white;
+}
+.custom-dropdown .ant-dropdown-menu-item {
+  color: white !important;
+  border-radius: 8px;
+}
+
+.custom-dropdown .ant-dropdown-menu-item:hover {
+  /* background-color: #334155 !important; */
+  color: #ff8b02 !important;
+}
+/* another dropdown  */
+.custom-currency-dropdown .ant-dropdown-menu-item {
+  text-align: center !important;
+  align-items: center !important;
+}
