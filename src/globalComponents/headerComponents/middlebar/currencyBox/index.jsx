@@ -13,18 +13,19 @@ const CurrencyBox = () => {
   const items = [
     {
       key: "1",
-      label: <USD />,
-      onClick: () => setSelected(<USD />),
+      label: <GBP />,
+      onClick: () => setSelected(<GBP />),
     },
     {
       key: "2",
       label: <EUR />,
       onClick: () => setSelected(<EUR />),
     },
+
     {
       key: "3",
-      label: <GBP />,
-      onClick: () => setSelected(<GBP />),
+      label: <USD />,
+      onClick: () => setSelected(<USD />),
     },
   ];
   return (

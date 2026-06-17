@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../../../Container";
 import Category from "./category";
+import { Link } from "react-router";
 
 const NavRightLayout = () => {
   return (
@@ -31,7 +32,7 @@ const NavRightLayout = () => {
         </div>
         <div>|</div>
         <div className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">
-          GET IN TOUCH
+          <Link to="/get_in_touch">GET IN TOUCH</Link>
         </div>
       </div>
     </>
