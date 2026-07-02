@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { MdLocalShipping } from "react-icons/md";
 
 const TopMiddleLayout = () => {
@@ -9,7 +9,7 @@ const TopMiddleLayout = () => {
           <MdLocalShipping size={20} color="orange" />
         </div>
         <p className="cursor-pointer font-poppins">
-          FREE DELIVERY TO UK MAINLAND
+         order is above £75 It will be free delivery
         </p>
       </div>
     </>

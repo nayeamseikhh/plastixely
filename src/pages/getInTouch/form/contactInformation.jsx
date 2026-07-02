@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const ContactInformation = () => {
   return (
@@ -32,8 +32,17 @@ const ContactInformation = () => {
           </a>
         </div>
 
-        <div>
+       <div>
           <h6 className="font-semibold text-[20px]">WHATSAPP :</h6>
+
+          <a
+            href="https://wa.me/447741003192"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-700 font-semibold hover:underline"
+          >
+            +44 7741 003192
+          </a>
         </div>
       </div>
     </>
