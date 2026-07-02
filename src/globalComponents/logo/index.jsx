@@ -6,7 +6,7 @@ const Logo = () => {
     <>
       <div>
         <a href="./">
-          <img src={logo} alt="Plastixely Logo" className="h-12 w-60 my-5" />
+          <img src={logo} alt="Plastixely Logo" className="md:h-12 md:w-60 md:my-5 h-8 w-40 " />
         </a>
       </div>
     </>

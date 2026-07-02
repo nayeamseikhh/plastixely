@@ -7,6 +7,7 @@ import Footer from "../../globalComponents/footer";
 const RootLayout = () => {
   return (
     <>
+      
       <HearderComponents />
       <StickyComponents />
       <Outlet />
