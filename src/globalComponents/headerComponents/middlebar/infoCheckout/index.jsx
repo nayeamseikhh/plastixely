@@ -9,12 +9,12 @@ const InfoCheckout = () => {
       <div className="grid grid-cols-3 mx-auto items-center md:gap-x-2   ">
         <div className="text-center cursor-pointer">
           <MdHelp className="mx-auto md:text-2xl"  />
-          <p className="text-xs md:text-[14px] mt-1 font-poppins">HELP</p>
+          <p className="text-[8px] md:text-[14px] mt-1 font-poppins">HELP</p>
         </div>
 
         <div className="text-center cursor-pointer">
           <CgProfile className="mx-auto md:text-2xl"  />
-          <p className="text-xs md:text-[14px] mt-1 font-poppins">SIGN IN</p>
+          <p className="text-[8px] md:text-[14px] mt-1 font-poppins">SIGN IN</p>
         </div>
 
         <div className="text-center cursor-pointer">
@@ -24,7 +24,7 @@ const InfoCheckout = () => {
               <p className="text-white01 md:text-sm text-[10px] font-poppins">0</p>
             </div>
           </div>
-          <p className="text-xs md:text-[14px] mt-1 font-poppins">CHECKOUT</p>
+          <p className="text-[8px] md:text-[14px] mt-1 font-poppins">CHECKOUT</p>
         </div>
       </div>
     </>
