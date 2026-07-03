@@ -32,7 +32,7 @@ const NavRightLayout = () => {
         </div>
         <div>|</div>
         <div className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">
-          <Link to="/get_in_touch">GET IN TOUCH</Link>
+          GET IN TOUCH
         </div>
       </div>
     </>
