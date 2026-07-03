@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterLayout03 = () => {
   return (
-    <div>
+    <div className=" text-white font-poppins font-semibold text-xl leading-7">
         <p className='text-white font-poppins font-semibold '>WARRANTY</p>
         <p className='text-white font-poppins font-semibold my-2'>PRIVACY POLICY</p>
         <p className='text-white font-poppins font-semibold my-2'>TERMS & CONDITIONS</p>
