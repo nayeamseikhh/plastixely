@@ -32,35 +32,7 @@ const Footer = () => {
       </Container>
     </div>
 
-    <div className='py-10 bg-black01'>
-        <Container>
-          <div className='flex justify-center text-center gap-10 text-white text-xl font-semibold '>
-            <div>
-              <h6>WORLDWIDE DELIVERY</h6>
-              <br/>
-              <p>-Royel Mail</p>
-              <p > ( PARCEL FORCE )</p>
-              <p>-DHL</p>
-              <p>-DPD</p>
-              <p>-UPS</p>
-              <p>-Evri</p>
-            </div>
-            <div>
-              <h6>PAYMENT METHOD ACCEPTED</h6>
-              <br/>
-              <div className='flex gap-x-4 justify-center'>
-                {/* <p>-Visa</p> */} <img className="w-16 h-10 rounded-sm object-cover p-1 bg-white" src={visa} alt="Visa" />
-              {/* <p>-Apple Pay</p> */}<img className="w-16 h-10 rounded-sm bg-white object-cover p-1" src={applePay} alt="Apple Pay" />
-              {/* <p>-Mastercard</p>  */} <img className="w-16 h-10 rounded-sm bg-white p-1" src={mastercard} alt="Mastercard" /> 
-              </div>
-              <div className='flex gap-x-4 justify-center my-4'>
-              {/* <p>-PayPal</p>  */} <img className="w-16 h-10 rounded-sm bg-white p-1" src={paypal} alt="Paypal" />
-              {/* <p>-Google Pay</p> */} <img className="w-16 h-10 rounded-sm bg-white p-1  object-contain" src={googlePay} alt="Google Pay" />
-              </div>
-            </div>
-          </div>
-        </Container>
-    </div>
+    
 
     <div className='bg-black01 py-10'>
       <Container>

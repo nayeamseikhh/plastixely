@@ -8,7 +8,7 @@ const NavRightLayout = () => {
     <>
       <div className="flex gap-x-5 font-poppins">
         <div className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">
-          START
+         <Link to="./"> START</Link>
         </div>
         <div>|</div>
         <div className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">
@@ -32,7 +32,7 @@ const NavRightLayout = () => {
         </div>
         <div>|</div>
         <div className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">
-          GET IN TOUCH
+          <Link to="/get_in_touch">GET IN TOUCH</Link>
         </div>
       </div>
     </>
