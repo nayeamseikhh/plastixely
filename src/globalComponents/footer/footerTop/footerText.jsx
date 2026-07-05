@@ -4,7 +4,7 @@ const FooterText = () => {
   return (
     <>
    <div className=' text-white font-poppins font-semibold text-xl leading-8'>
-     <p className='text-center font-semibold text-xl font-poppins'>© 2026 FD PLASTIX, TOOLZ & SPAREZ LTD, CRN: 17190057, EORI NUMBERT: GB048164708000 <br />
+     <p className='text-center font-semibold text-xl font-poppins'>© 2026 FD PLASTIX, TOOLZ & SPAREZ LTD, CRN: 17190057, EORI NUMBER:&nbsp;&nbsp;&nbsp;GB048164708000 <br />
 Registered Office Address: The Storeage Team of A.R.T. Centre, Tan House Lane,<br /> Widnes, WA8 0RR, UNITED KINGDOM</p>
 
 <p  className='text-center font-semibold text-xl my-10 font-poppins'>FD PLASTIX, TOOLZ & SPAREZ LTD is an independent specialist reseller of genuine vehicle <br/> parts and power tool components. We are not an authorised dealer, partner, or affiliate <br /> of any vehicle or tool manufacturer. All brand names, logos, trademarks, and model <br /> designations are the property of their respective owners and are used purely for <br /> compatibility and product identification purposes. <br />

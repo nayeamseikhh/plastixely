@@ -15,11 +15,14 @@ const FooterLayout03 = () => {
         <div className="mt-18">
                       <h6>PAYMENT METHOD ACCEPTED</h6>
                       <br/>
-                      <div className='flex items-center gap-3'>
+                      <div className='flex items-center gap-3 justify-center'>
                         {/* <p>-Visa</p> */} <img className="w-16 h-10 rounded-sm object-cover p-1 bg-white" src={visa} alt="Visa" />
                           {/* <p>-Mastercard</p>  */} <img className="w-16 h-10 rounded-sm bg-white p-1" src={mastercard} alt="Mastercard" /> 
                       {/* <p>-PayPal</p>  */} <img className="w-16 h-10 rounded-sm bg-white p-1" src={paypal} alt="Paypal" />
-                      {/* <p>-Apple Pay</p> */}<img className="w-16 h-10 rounded-sm bg-white object-cover p-1" src={applePay} alt="Apple Pay" />
+                      
+                      </div>
+                      <div className='flex items-center gap-3 mt-8 justify-center'> 
+                        {/* <p>-Apple Pay</p> */}<img className="w-16 h-10 rounded-sm bg-white object-cover p-1" src={applePay} alt="Apple Pay" />
                       {/* <p>-Google Pay</p> */} <img className="w-16 h-10 rounded-sm bg-white p-1  object-contain" src={googlePay} alt="Google Pay" />
                       </div>
                     </div>
