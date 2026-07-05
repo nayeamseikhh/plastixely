@@ -5,60 +5,75 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
 import Category from '../headerComponents/navbar/navRightLayout/category';
+import { Link } from 'react-router';
+
 
 const items = [
   {
     key: "1",
     label: (
-      <a
-        rel="noopener noreferrer"
-        href="./"
-        className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
+      <Link
+        to="/"
+        className="font-poppins hover:text-orange01 transition-colors"
       >
         START
-      </a>
+      </Link>
     ),
   },
+
   {
     key: "2",
     label: (
-      <a  rel="noopener noreferrer" href="" className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">
+      <Link
+        to="/welcome"
+        className="font-poppins hover:text-orange01 transition-colors"
+      >
         WELCOME TO OUR WORLD
-      </a>
+      </Link>
     ),
   },
+
   {
     key: "3",
     label: (
-      <a  rel="noopener noreferrer" href="" className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">
+      <Link
+        to="/expertise"
+        className="font-poppins hover:text-orange01 transition-colors"
+      >
         OUR EXPERTISE
-      </a>
+      </Link>
     ),
   },
+
   {
     key: "4",
-    label: (
-       <Category />
-    ),
+    label: <Category />,
   },
+
   {
     key: "5",
     label: (
-      <a  rel="noopener noreferrer" href="" className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">
+      <Link
+        to="/consulting-services"
+        className="font-poppins hover:text-orange01 transition-colors"
+      >
         CONSULTING SERVICES
-      </a>
+      </Link>
     ),
   },
+
   {
     key: "6",
     label: (
-      <a  rel="noopener noreferrer" href="/get_in_touch" className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">
+      <Link
+        to="/get_in_touch"
+        className="font-poppins hover:text-orange01 transition-colors"
+      >
         GET IN TOUCH
-      </a>
+      </Link>
     ),
   },
 ];
-
 const Drawer = () => {
   return (
     <div>
