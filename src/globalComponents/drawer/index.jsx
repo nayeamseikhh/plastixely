@@ -7,73 +7,82 @@ import { Dropdown, Space } from 'antd';
 import Category from '../headerComponents/navbar/navRightLayout/category';
 import { Link } from 'react-router';
 
-
 const items = [
   {
     key: "1",
     label: (
-      <Link
-        to="/"
-        className="font-poppins hover:text-orange01 transition-colors"
-      >
-        START
-      </Link>
+      <Link to="/" className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "> START</Link>
     ),
   },
-
-  {
-    key: "2",
+  { key: "2",
     label: (
-      <Link
-        to="/welcome"
-        className="font-poppins hover:text-orange01 transition-colors"
-      >
-        WELCOME TO OUR WORLD
-      </Link>
+      <Link to="" className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">WELCOME TO OUR WORLD</Link>
     ),
   },
-
   {
-    key: "3",
+     key: "3",
     label: (
-      <Link
-        to="/expertise"
-        className="font-poppins hover:text-orange01 transition-colors"
-      >
-        OUR EXPERTISE
-      </Link>
+      <Link to="" className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">OUR EXPERTISE</Link>
     ),
   },
-
   {
     key: "4",
-    label: <Category />,
-  },
+    label: "CATEGORY",
 
+          children: [
+            {
+          key: "4-1",
+          label: (
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href=""
+              className="text-white01"
+            >
+              AUTOMOBILE
+            </a>
+          ),
+        },
+        {
+          key: "4-2",
+          label: (
+            <a target="_blank" rel="noopener noreferrer" href="">
+              MOTORCYCLE
+            </a>
+          ),
+        },
+        {
+          key: "4-3",
+          label: (
+            <a target="_blank" rel="noopener noreferrer" href="">
+              POWER TOOLS
+            </a>
+          ),
+        },
+        {
+          key: "4-4",
+          label: (
+            <a target="_blank" rel="noopener noreferrer" href="">
+              LANDSCAPING TOOLS
+            </a>
+          ),
+        },
+          ]
+  },
   {
     key: "5",
     label: (
-      <Link
-        to="/consulting-services"
-        className="font-poppins hover:text-orange01 transition-colors"
-      >
-        CONSULTING SERVICES
-      </Link>
+      <Link to="" className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "> CONSULTING SERVICES</Link>
     ),
   },
-
   {
     key: "6",
     label: (
-      <Link
-        to="/get_in_touch"
-        className="font-poppins hover:text-orange01 transition-colors"
-      >
-        GET IN TOUCH
-      </Link>
+      <Link to="/get_in_touch" className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 ">GET IN TOUCH</Link>
     ),
   },
 ];
+
 const Drawer = () => {
   return (
     <div>
