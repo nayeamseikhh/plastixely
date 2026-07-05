@@ -15,7 +15,7 @@ const GetInTouchBanner = () => {
         <div className="absolute inset-0 bg-black/50"></div>
 
         <div className="relative z-10 flex h-full flex-col  text-center text-white px-4">
-          <h1 className="text-4xl font-bold md:text-6xl font-poppins  pt-150">
+          <h1 className="text-4xl font-bold md:text-6xl font-poppins  pt-152">
             GET IN TOUCH
           </h1>
           <div className="flex items-center justify-center mt-10 text-xl font-poppins">

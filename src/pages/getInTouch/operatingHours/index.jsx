@@ -1,7 +1,7 @@
 const OperatingHours = () => {
   return (
     <div className="overflow-x-auto">
-      <table className="w-200 border-2 border-black border-collapse text-center">
+      <table className="w-full border-2 border-black border-collapse text-center">
         <thead>
           <tr>
             <th className="border-2 border-black px-6 py-5 text-2xl font-bold underline">
