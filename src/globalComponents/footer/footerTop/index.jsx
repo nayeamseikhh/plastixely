@@ -3,7 +3,7 @@ import { HiMiniArrowTurnDownLeft } from 'react-icons/hi2'
 
 const FooterTop = () => {
   return (
-   <div className='grid grid-cols-2 gap-10 text-white font-poppins font-normal my-4'>
+   <div className='md:grid md:grid-cols-2 gap-10 text-white font-poppins font-normal my-4'>
     <div>
         <h6 className='text-lg font-bold'>Keep up to date</h6>
         <p className='text-base font-normal my-4'>Be the first to know when we launch new deals, introduce new products or have news to share, straight to your inbox. </p>

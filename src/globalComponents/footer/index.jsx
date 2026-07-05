@@ -19,11 +19,11 @@ const Footer = () => {
     <div className='py-10 bg-black01'>
       <Container>
        
-         <div className="text-white my-10 ">  <FooterTop/></div>
+         <div className="text-white md:my-10 ">  <FooterTop/></div>
       </Container>
       <div className="border-t border-gray-600 my-10"></div>
       <Container>
-        <div className='grid grid-cols-4 gap-10 '>
+        <div className='md:grid md:grid-cols-4 gap-10 '>
           <FooterLayout01/>
           <FooterLayout02/>
           <FooterLayout03/>
@@ -34,7 +34,7 @@ const Footer = () => {
 
     
 
-    <div className='bg-black01 py-10'>
+    <div className='bg-black01 md:py-10'>
       <Container>
       <div className="text-black">  <FooterText/></div>
     </Container>
