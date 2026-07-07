@@ -1,6 +1,8 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import whatsapp from "../../assets/icon/whats app.jpeg"
+import whatsapp02 from "../../assets/icon/whats app02.jpeg"
+import whatsapp03 from "../../assets/icon/whats app03.jpeg"
 
 const WhatsApp = () => {
   return (
@@ -13,7 +15,13 @@ const WhatsApp = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Chat with us on WhatsApp" className='text-blue-500'> 
-              <img src={whatsapp} className="h-11 p-0.5  w-12 rounded-lg " alt="whats app" />
+              <img src={whatsapp03} className="h-11 p-0.5  w-12 rounded-lg " alt="whats app" />
+          </a>
+          <a href="https://wa.me/447741003192" 
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat with us on WhatsApp" className='text-blue-500'> 
+              <img src={whatsapp02} className="h-11 p-0.5  w-12 rounded-lg " alt="whats app" />
           </a>
           
         </div>

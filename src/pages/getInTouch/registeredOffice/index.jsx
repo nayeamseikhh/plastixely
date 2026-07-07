@@ -38,7 +38,7 @@ const RegisteredOffice = () => {
 
         <div className=" font-poppins text-center md:text-4xl text-xl mt-4 md:mt-0 md:leading-20 leading-8 font-bold">
           <h2>Our HomePage URL :</h2>
-          <h2><a href="https://www.plastixely.com" className="text-blue-500"><u>https://www.plastixely.com</u></a></h2>
+          <h2><a href="https://www.plastixely.com" className="text-blue01"><u>https://www.plastixely.com</u></a></h2>
         </div>
       </Container>
     </>

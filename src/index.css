@@ -10,6 +10,7 @@
   --color-green01: #25d366;
   --color-black01: #0f2c37;
   --color-black02: #000000;
+  --color-blue01: #2b7fff;
 
   --breakpoint-xs: 320px;
   --breakpoint-sm: 576px;
@@ -46,3 +47,10 @@
   align-items: center;
 
 } */
+
+.getintouch{
+  background-image: url("/src//assets/background/Background01.jpeg");
+  background-size: contain;
+  /* background-position: center; */
+  background-repeat: repeat;
+}

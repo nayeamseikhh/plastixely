@@ -11,7 +11,7 @@ const ContactPhone = () => {
           <h2>
             CONNECT WITH US THROUGH THE FOLLOWING WAYS: <br />
             Contact us by Email: <br />
-            <a href="mailto:info@plastixely.com" className='text-blue-500' ><u>info@plastixely.com</u></a> <br />
+            <a href="mailto:info@plastixely.com" className='text-blue01' ><u>info@plastixely.com</u></a> <br />
             (Our team replies to all enquiries within one business day. ) <br />
             Contact us by Telephone: <br />
             For sales or general enquiries please contact our sales telephone number: <br />
@@ -23,11 +23,11 @@ const ContactPhone = () => {
            </div>
         </div>
 
-        <div className="md:mb-15 mb-4 font-poppins md:text-start text-center p-1 md:text-2xl text-base md:leading-12 leading-8 font-bold">
+        <div className=" font-poppins md:text-start text-center p-1 md:text-2xl text-base md:leading-12 leading-8 font-bold">
        
           <h2 className='font-poppins'>
             Contact us by WhatsApp: <br />
-            <a href="https://wa.me/447741003192" className='text-blue-500'><u>+447741003192</u></a> <br />
+            <a href="https://wa.me/447741003192" className='text-blue01'><u>+447741003192</u></a> <br />
             Contact us by Post: <br />
             If you need to write to us our postal address is : <br />
             FD PLASTIX, TOOLZ & SPAREZ LTD <br />
@@ -37,6 +37,7 @@ const ContactPhone = () => {
           </h2>
         </div>
     </Container>
+    <br />
     </>
   )
 }

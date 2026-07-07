@@ -14,7 +14,20 @@ const InfoCheckout = () => {
 
         <div className="text-center cursor-pointer">
           <CgProfile className="mx-auto md:text-2xl"  />
-          <p className="text-[8px] md:text-[14px] mt-1 font-poppins">SIGN IN</p>
+          {/* <p className="text-[8px] md:text-[14px] mt-1 font-poppins">SIGN IN</p> */}
+
+          <button className="text-[8px] md:text-[14px] mt-1 font-poppins" onClick={() => setOpen(true)}>
+              Login
+            </button>
+
+            <button onClick={() => {
+              setMode("register");
+              setOpen(true);
+            }}>
+              Sign Up
+            </button>
+
+
         </div>
 
         <div className="text-center cursor-pointer">

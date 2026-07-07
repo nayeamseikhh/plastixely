@@ -35,9 +35,9 @@ const Footer = () => {
     
 
     <div className='bg-black01 md:py-10'>
-      <Container>
+      
       <div className="text-black">  <FooterText/></div>
-    </Container>
+    
     </div>
     </>
   )
