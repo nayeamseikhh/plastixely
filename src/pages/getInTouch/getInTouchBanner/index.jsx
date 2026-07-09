@@ -2,8 +2,10 @@ import React from "react";
 
 import getintouch_img from "../../../assets/images/getintouch_banner.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
 const GetInTouchBanner = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="relative md:h-210 md:w-full overflow-hidden bg-black">
@@ -16,12 +18,12 @@ const GetInTouchBanner = () => {
 
         <div className="relative z-10 flex h-full flex-col  text-center text-white px-4">
           <h1 className="text-xl font-bold md:text-6xl font-poppins pt-55  md:pt-152">
-            GET IN TOUCH
+            {/* {t("GET_IN_TOUCH")} */} GET IN TOUCH
           </h1>
           <div className="flex items-center justify-center my-4 md:my-0 md:mt-10 text-sm md:text-xl font-poppins">
-            <p >GET IN TOUCH   </p>
-             <MdKeyboardDoubleArrowRight className="mx-5" />
-             <a href="./">START</a>
+            <p>GET IN TOUCH </p>
+            <MdKeyboardDoubleArrowRight className="mx-5" />
+            <a href="./">START</a>
           </div>
         </div>
       </div>

@@ -21,6 +21,7 @@
   --breakpoint-3xl: 1700px;
 }
 
+/* custom selector ant design custization */
 .custom-selector {
   height: 40px !important;
   width: 100% !important;
@@ -40,6 +41,17 @@
 .custom-selector .ant-select-input {
   color: #000;
 }
+/* Language custom selector  */
+.custom-language {
+  height: 50px !important;
+  width: 150px !important;
+  background-color: #fff !important;
+  border-radius: 8px !important;
+  align-items: center !important;
+  padding-left: 20px !important;
+  border: none !important;
+}
+/* custom selector ant design custization */
 
 .custom-dropdown {
   background-color: #334155;
