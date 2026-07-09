@@ -12,9 +12,9 @@ const ContactPhone = () => {
             Email our team: <br />
             <a href="mailto:info@plastixely.com" className="text-blue01">
               <u>info@plastixely.com</u>
-            </a>{" "}
+            </a>
             <br />
-            (Our team responds to all inquiries within one business day. ){" "}
+            (Our team responds to all inquiries within one business day. )
             <br />
             Connect with our team via Phone: <br />
             To reach our sales department for general or commercial inquiries,
@@ -33,7 +33,7 @@ const ContactPhone = () => {
             Message our team via WhatsApp: <br />
             <a href="https://wa.me/447741003192" className="text-blue01">
               <u>+447741003192</u>
-            </a>{" "}
+            </a>
             <br />
             Contact us by Post: <br />
             If you wish to write to us, our mailing address is: <br />

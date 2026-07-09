@@ -21,7 +21,27 @@
   --breakpoint-3xl: 1700px;
 }
 
-.custom-dropdown .ant-dropdown-menu {
+.custom-selector {
+  height: 40px !important;
+  width: 100% !important;
+  background-color: #fff !important;
+  border-radius: 16px !important;
+  align-items: center !important;
+  padding-left: 20px !important;
+  border: none !important;
+}
+
+.custom-selector .ant-select-content {
+  display: flex !important;
+  color: #000 !important;
+  background-color: #fff !important;
+  align-items: center !important;
+}
+.custom-selector .ant-select-input {
+  color: #000;
+}
+
+.custom-dropdown {
   background-color: #334155;
   border-radius: 12px;
   padding: 8px;
@@ -48,12 +68,10 @@
 
 } */
 
-.getintouch{
+.getintouch {
   background-image: url("/src//assets/background/Background01.jpeg");
   background-size: contain;
   /* background-position: center; */
   background-repeat: repeat;
   /* background-attachment: fixed; */
-  
-  
 }
