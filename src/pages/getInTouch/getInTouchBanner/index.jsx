@@ -1,6 +1,6 @@
 import React from "react";
 
-import getintouch_img from "../../../assets/images/getintouch_banner.png";
+import getintouch_img from "../../../assets/images/getintouch_banner.jpeg";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 

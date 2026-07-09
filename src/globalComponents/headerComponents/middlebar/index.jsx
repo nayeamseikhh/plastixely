@@ -8,7 +8,7 @@ const MiddleBar = () => {
   return (
     <>
       <Container>
-        <div className="grid grid-cols-[1fr_1.5fr_1fr_1fr] gap-x-8">
+        <div className="grid grid-cols-[1fr_2fr_2fr_1fr] gap-x-8">
           <Logo />
           <SearchBox />
           <CurrencyBox />

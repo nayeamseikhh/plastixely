@@ -1,20 +1,33 @@
-import React from 'react'
-import { HiMiniArrowTurnDownLeft } from 'react-icons/hi2'
+import React from "react";
+import { HiMiniArrowTurnDownLeft } from "react-icons/hi2";
 
 const FooterTop = () => {
   return (
-   <div className='md:grid md:grid-cols-2 gap-10 text-white font-poppins font-normal my-4'>
-    <div>
-        <h6 className='text-lg font-bold'>Power up your inbox</h6>
-        <p className='text-base font-normal my-4'>Be the first to grab exclusive discounts, premium tool drops, and stock updates. </p>
-    </div>
-    <div>
-        <label htmlFor="email" className='text-lg font-normal'>Your Email</label>
-    <div className='flex items-center '> <input type="text" name="email" id="email" className="h-10 w-full bg-white my-4 px-4 rounded-sm text-black outline-none" placeholder='Email' />
-     <span className='bg-primary text-white px-4 -ml-12 py-3 rounded-r-sm bg-red-500 cursor-pointer hover:bg-red-600 transition-all'><HiMiniArrowTurnDownLeft /></span></div>
-    </div>
-   </div>
-  )
-}
+    <div className="md:grid md:grid-cols-2 text-white font-poppins font-normal ">
+      <div>
+        <h6 className="text-lg font-bold">Power up your inbox</h6>
+        <p className="text-base font-normal mt-4">
+          Be the first to grab exclusive discounts, premium tool drops, and
+          stock updates.
+        </p>
+      </div>
+      <div>
+        <div className="flex items-center justify-between gap-x-2 mt-2 ">
+          <input
+            type="text"
+            name="email"
+            id="email"
+            className=" w-[85%] bg-white  px-4 py-4 rounded-sm text-black outline-none"
+            placeholder="Email"
+          />
 
-export default FooterTop
+          <button className="bg-orange-400 rounded-sm font-semibold text-base p-4 cursor-pointer">
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default FooterTop;

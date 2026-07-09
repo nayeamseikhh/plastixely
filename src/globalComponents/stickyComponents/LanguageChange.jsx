@@ -150,7 +150,7 @@ const LanguageChange = () => {
 
   return (
     <>
-      <div className="fixed left-10 top-210 -translate-y-1/2 z-50">
+      <div className="fixed left-35 top-210 -translate-y-1/2 z-50">
         <div className="rounded-xl shadow flex items-center gap-x-4 font-semibold">
           <div>
             <Select

@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../../../globalComponents/Container";
-import RegisteredOfficeImg from "../../../assets/images/GetinTouch_R2_Gonder.jpg";
+import RegisteredOfficeImg from "../../../assets/images/getintouchcontact.jpeg";
 
 const RegisteredOffice = () => {
   return (
@@ -8,9 +8,10 @@ const RegisteredOffice = () => {
       <Container>
         <div className="md:mt-10 mt-4 font-poppins text-center md:leading-20 font-bold">
           <h2 className="md:text-[50px] text-2xl">HOW CAN WE HALP YOU ?</h2>
-          <h2 className="md:text-[46px] md:mt-6 text-2xl" >GET IN TOUCH WITH US ! </h2>
+          <h2 className="md:text-[46px] md:mt-6 text-2xl">
+            GET IN TOUCH WITH US !{" "}
+          </h2>
         </div>
-
 
         <div className="md:grid md:grid-cols-2 md:my-10 justify-center ">
           <div className="h-full w-full rounded-md my-4 md:my-0">
@@ -38,7 +39,11 @@ const RegisteredOffice = () => {
 
         <div className=" font-poppins text-center md:text-4xl text-xl mt-4 md:mt-0 md:leading-20 leading-8 font-bold">
           <h2>Our HomePage URL :</h2>
-          <h2><a href="https://www.plastixely.com" className="text-blue01"><u>https://www.plastixely.com</u></a></h2>
+          <h2>
+            <a href="https://www.plastixely.com" className="text-blue01">
+              <u>https://www.plastixely.com</u>
+            </a>
+          </h2>
         </div>
       </Container>
     </>

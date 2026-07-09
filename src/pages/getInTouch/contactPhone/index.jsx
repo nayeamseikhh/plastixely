@@ -6,7 +6,7 @@ const ContactPhone = () => {
   return (
     <>
       <Container>
-        <div className="md:mt-8 mt-4 font-poppins md:text-start text-center p-1 md:text-2xl text-base md:leading-12 leading-8 font-bold">
+        <div className="md:mt-8 mt-4 font-poppins md:text-start text-center md:text-2xl text-base md:leading-12 leading-8 font-bold">
           <h2>
             GET IN TOUCH THROUGH THESE CHANNELS: <br />
             Email our team: <br />
@@ -28,7 +28,7 @@ const ContactPhone = () => {
           </div>
         </div>
 
-        <div className=" font-poppins md:text-start text-center p-1 md:text-2xl text-base md:leading-12 leading-8 font-bold">
+        <div className=" font-poppins md:text-start text-center  md:text-2xl text-base md:leading-12 leading-8 font-bold">
           <h2 className="font-poppins">
             Message our team via WhatsApp: <br />
             <a href="https://wa.me/447741003192" className="text-blue01">

@@ -8,9 +8,9 @@ const TopMiddleLayout = () => {
         <div>
           <MdLocalShipping size={20} color="orange" />
         </div>
-        <p className="cursor-pointer font-poppins">
+        {/* <p className="cursor-pointer font-poppins">
          order is above £75 It will be free delivery
-        </p>
+        </p> */}
       </div>
     </>
   );
