@@ -1,61 +1,9 @@
-// import React, { useState } from "react";
-// import { Dropdown, Space, Typography } from "antd";
-// import { DownOutlined, SmileOutlined } from "@ant-design/icons";
-// import GBP from "./multipleCurrencies/GBP";
-// import EUR from "./multipleCurrencies/EUR";
-// import USD from "./multipleCurrencies/USD";
-
-// const LanguageChange = () => {
-//   const [selected, setSelected] = useState(<GBP />);
-//   const items = [
-//     {
-//       key: "1",
-//       label: <GBP />,
-//       onClick: () => setSelected(<GBP />),
-//     },
-//     {
-//       key: "2",
-//       label: <EUR />,
-//       onClick: () => setSelected(<EUR />),
-//     },
-//     {
-//       key: "3",
-//       label: <USD />,
-//       onClick: () => setSelected(<USD />),
-//     },
-//   ];
-//   return (
-//     <>
-//       <div className="fixed left-10 top-210 -translate-y-1/2 z-50">
-//         <div className=" px-5 py-2 bg-white01 rounded-xl  top-0 z-50 shadow flex items-center gap-x-4 font-semibold">
-//           <div>
-//             <Dropdown
-//               className="custom_lan_dropdown"
-//               menu={{
-//                 items,
-//                 selectable: true,
-//                 defaultSelectedKeys: ["6"],
-//               }}
-//               placement="top"
-//               overlayClassName="custom-currency-dropdown"
-//             >
-//               <Typography.Link>
-//                 <Space>{selected}</Space>
-//               </Typography.Link>
-//             </Dropdown>
-//           </div>
-//           {/* <p>EN</p> */}
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default LanguageChange;
-
 import { Select } from "antd";
+import { useTranslation } from "react-i18next";
+import i18n from "../../service/i18n";
 
 const LanguageChange = () => {
+  const { i18n } = useTranslation();
   const languageChangeOptiion = [
     {
       value: "English",
@@ -148,29 +96,24 @@ const LanguageChange = () => {
     },
   ];
 
+  const handleLanguageChange = (value) => {
+    const findLanguage = languageChangeOptiion.find(
+      (language) => language.value === value,
+    );
+    if (findLanguage) {
+      i18n.changeLanguage(findLanguage.language || "en");
+    }
+  };
+
   return (
     <>
-      <div className="fixed left-35 top-210 -translate-y-1/2 z-50">
+      <div className="fixed left-35 top-220 -translate-y-1/2 z-50">
         <div className="rounded-xl shadow flex items-center gap-x-4 font-semibold">
           <div>
             <Select
-              labelInValue
-              defaultValue={{
-                value: "EN",
-                language: "en",
-                label: (
-                  <div className="flex items-center font-semibold gap-x-2">
-                    <img
-                      src="https://flagcdn.com/gb.svg"
-                      alt="flag"
-                      className="w-10 h-7 object-cover rounded-xs"
-                    />
-                    <span>English</span>
-                  </div>
-                ),
-              }}
+              defaultValue={languageChangeOptiion[0].value}
               style={{ width: 120 }}
-              onChange={() => {}}
+              onChange={handleLanguageChange}
               options={languageChangeOptiion}
               popupAlign="top"
               classNames={{

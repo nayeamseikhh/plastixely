@@ -7,9 +7,9 @@ const RegisteredOffice = () => {
     <>
       <Container>
         <div className="md:mt-10 mt-4 font-poppins text-center md:leading-20 font-bold">
-          <h2 className="md:text-[50px] text-2xl">HOW CAN WE HALP YOU ?</h2>
+          <h2 className="md:text-[50px] text-2xl">HOW CAN WE HELP YOU ?</h2>
           <h2 className="md:text-[46px] md:mt-6 text-2xl">
-            GET IN TOUCH WITH US !{" "}
+            GET IN TOUCH WITH US !
           </h2>
         </div>
 

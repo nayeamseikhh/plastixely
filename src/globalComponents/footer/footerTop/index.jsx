@@ -3,7 +3,7 @@ import { HiMiniArrowTurnDownLeft } from "react-icons/hi2";
 
 const FooterTop = () => {
   return (
-    <div className="md:grid md:grid-cols-2 text-white font-poppins font-normal ">
+    <div className="md:grid md:grid-cols-[1.2fr_1.5fr] text-white font-poppins font-normal ">
       <div>
         <h6 className="text-lg font-bold">Power up your inbox</h6>
         <p className="text-base font-normal mt-4">
