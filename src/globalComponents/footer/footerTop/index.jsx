@@ -8,7 +8,7 @@ const FooterTop = () => {
         <h6 className="text-lg font-bold text-center md:text-start pt-4 md:pt-0 ">
           Power up your inbox
         </h6>
-        <p className="text-base font-normal mt-4 text-center md:text-start ">
+        <p className="text-base font-normal md:mt-4 my-4 md:my-0 text-center md:text-start ">
           Be the first to grab exclusive discounts, premium tool drops, and
           stock updates.
         </p>

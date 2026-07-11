@@ -10,7 +10,7 @@ const PaymentPart = () => {
         <div>
           <DeliveryMethood />
         </div>
-        <div className="mt-6 md:mt-0">
+        <div className="mt-4 md:mt-0">
           <PaymentMethood />
         </div>
         <div></div>

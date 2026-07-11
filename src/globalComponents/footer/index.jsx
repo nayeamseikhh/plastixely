@@ -22,7 +22,7 @@ const Footer = () => {
             <FooterTop />
           </div>
           <div className="border-t border-gray-600 mt-8 md:mt-0"></div>
-          <div className="md:grid md:grid-cols-4 gap-10 pt-10">
+          <div className="md:grid md:grid-cols-4 gap-10 md:pt-10">
             <FooterLayout01 />
             <FooterLayout02 />
             <FooterLayout03 />
@@ -31,13 +31,13 @@ const Footer = () => {
         </Container>
 
         <Container>
-          <div className="py-10">
+          <div className="md:py-10">
             <PaymentPart />
           </div>
         </Container>
       </div>
 
-      <div className="bg-black01 md:pb-10">
+      <div className="bg-black01 md:pb-10 pt-4 md:pt-0">
         <div className="text-black">
           <FooterText />
         </div>
