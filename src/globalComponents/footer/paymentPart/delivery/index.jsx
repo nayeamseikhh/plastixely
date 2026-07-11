@@ -12,7 +12,7 @@ const DeliveryMethood = () => {
         <div className="flex flex-col items-center text-white font-poppins font-semibold  text-xl">
           <h6>WORLDWIDE DELIVERY</h6>
           <br />
-          <div className="flex items-center gap-8 justify-center">
+          <div className="flex items-center gap-8 justify-center mt-4 md:mt-0">
             {/* <p>-Royel Mail</p>  */}{" "}
             <img
               className="w-16 h-10 rounded-sm object-cover p-1 bg-white"

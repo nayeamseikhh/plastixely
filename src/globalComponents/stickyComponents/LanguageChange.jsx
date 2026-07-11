@@ -16,7 +16,8 @@ const LanguageChange = () => {
             alt="flag"
             className="w-10 h-7 font-semibold object-cover rounded-xs "
           />
-          <span className="hidden md:block">English</span>
+          <span className="hidden md:block ">English</span>
+          <span className=" md:hidden  ">EN</span>
         </div>
       ),
     },
@@ -31,7 +32,8 @@ const LanguageChange = () => {
             alt="flag"
             className="w-10 h-7 object-cover rounded-xs"
           />
-          <span>Frence</span>
+          <span className="hidden md:block ">Frence</span>
+          <span className="  md:hidden ">FR</span>
         </div>
       ),
     },
@@ -46,7 +48,8 @@ const LanguageChange = () => {
             alt="flag"
             className="w-10 h-7 object-cover rounded-xs"
           />
-          <span>German</span>
+          <span className="hidden md:block ">German</span>
+          <span className="  md:hidden ">DE</span>
         </div>
       ),
     },
@@ -61,7 +64,8 @@ const LanguageChange = () => {
             alt="flag"
             className="w-10 h-7 object-cover rounded-xs"
           />
-          <span>Greek</span>
+          <span className="hidden md:block ">Greek</span>
+          <span className="  md:hidden ">EL</span>
         </div>
       ),
     },
@@ -76,7 +80,8 @@ const LanguageChange = () => {
             alt="flag"
             className="w-10 h-7 object-cover rounded-xs"
           />
-          <span>Spanish</span>
+          <span className="hidden md:block ">Spanish</span>
+          <span className=" md:hidden  ">ES</span>
         </div>
       ),
     },
@@ -91,7 +96,8 @@ const LanguageChange = () => {
             alt="flag"
             className="w-10 h-7 object-cover rounded-xs"
           />
-          <span>Turkey</span>
+          <span className="hidden md:block ">Turkish</span>
+          <span className=" md:hidden ">TR</span>
         </div>
       ),
     },
