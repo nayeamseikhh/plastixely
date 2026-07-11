@@ -22,3 +22,10 @@ git add .
 git commit -m "add"
 
 git push
+
+en=england
+de=German
+el=greek
+fr=french
+es=spanish
+tr=turkey

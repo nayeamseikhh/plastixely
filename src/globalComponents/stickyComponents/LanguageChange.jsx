@@ -4,6 +4,7 @@ import i18n from "../../service/i18n";
 
 const LanguageChange = () => {
   const { i18n } = useTranslation();
+
   const languageChangeOptiion = [
     {
       value: "English",
@@ -15,7 +16,7 @@ const LanguageChange = () => {
             alt="flag"
             className="w-10 h-7 font-semibold object-cover rounded-xs "
           />
-          <span>English</span>
+          <span className="hidden md:block">English</span>
         </div>
       ),
     },
@@ -52,7 +53,7 @@ const LanguageChange = () => {
 
     {
       value: "Greek",
-      language: "gr",
+      language: "el",
       label: (
         <div className="flex items-center gap-x-2  font-semibold ">
           <img
@@ -107,7 +108,7 @@ const LanguageChange = () => {
 
   return (
     <>
-      <div className="fixed left-35 top-220 -translate-y-1/2 z-50">
+      <div className="fixed md:left-35 md:top-220 top-150 -translate-y-1/2 z-50">
         <div className="rounded-xl shadow flex items-center gap-x-4 font-semibold">
           <div>
             <Select
