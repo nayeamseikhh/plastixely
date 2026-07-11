@@ -7,22 +7,18 @@ import { Link } from "react-router";
 const InfoCheckout = () => {
   return (
     <>
-      <div className="flex justify-between items-center md:gap-x-2   ">
+      <div className="flex justify-between items-center  gap-x-2 ">
         <div className="text-center cursor-pointer">
           <MdHelp className="mx-auto md:text-2xl" />
           <p className="text-[8px] md:text-[14px] mt-1 font-poppins">HELP</p>
         </div>
 
         <div className="text-center cursor-pointer">
-          {/* <p className="text-[8px] md:text-[14px] mt-1 font-poppins">SIGN IN</p> */}
-
-          <Link
-            to="/registration"
-            className="text-[8px] md:text-[14px] mt-1 font-poppins"
-            onClick={() => setOpen(true)}
-          >
+          <Link to="/registration" onClick={() => setOpen(true)}>
             <CgProfile className="mx-auto md:text-2xl" />
-            SIGNUP
+            <p className="text-[8px] md:text-[14px] mt-1 font-poppins">
+              SIGNUP
+            </p>
           </Link>
         </div>
 

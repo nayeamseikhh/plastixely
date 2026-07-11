@@ -6,7 +6,7 @@ import Container from "../Container";
 const WhatsApp = () => {
   return (
     <>
-      <div className="fixed right-35 top-220 -translate-y-1/2 z-50">
+      <div className="fixed right-3.5 md:right-35 md:top-220 top-150   -translate-y-1/2 z-50">
         <div className="  rounded-xl sticky top-0 z-50 shadow flex items-center gap-x-4 font-semibold">
           <a
             href="https://wa.me/447741003192"

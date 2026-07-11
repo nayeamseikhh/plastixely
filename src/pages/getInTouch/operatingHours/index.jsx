@@ -29,7 +29,7 @@ const OperatingHours = () => {
           >
             <p className="font-bold">{t(item.day)}</p>
 
-            <p className="mt-2 text-gray-700">{t(item.time)}</p>
+            <p className="mt-2 text-white">{t(item.time)}</p>
           </div>
         ))}
       </div>
