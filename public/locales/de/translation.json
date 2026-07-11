@@ -1,0 +1,33 @@
+{
+  "getInTouch": "KONTAKTIEREN SIE UNS",
+  "start": "STARTEN",
+  "howCanWeHelpYou": "WIE KÖNNEN WIR IHNEN HELFEN?",
+  "getInTouchWithUs": "KONTAKTIEREN SIE UNS!",
+  "registeredOfficeAdddress": "SITZ DES EINGETRAGENEN FIRMAS:",
+  "fdPlastixToolz&sparezLTD": "FD PLASTIX, TOOLZ & SPAREZ LTD",
+  "theStorageTeamOfARTCenter": "DAS LAGERTEAM DES A.R.T. CENTRE",
+  "tanHouseLane": "TAN HOUSE LANE",
+  "widnes": "WIDNES",
+  "wa80RR": "WA8 0RR",
+  "unitedKingdom": "VEREINIGTES KÖNIGREICH",
+  "ourHomePageURL": "URL unserer Homepage:",
+
+  "customarServicePhoneLine": "Kundendienst-Telefonnummer",
+  "operatingDays": "Öffnungstage",
+  "businessHours": {
+    "mondayFriday": "Montag - Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "bankHoliday": "Bankfeiertag(e)",
+    "closed": "Geschlossen"
+  },
+
+  "Kontaktieren Sie uns über diese Kanäle": "Nehmen Sie über diese Kanäle Kontakt auf:",
+  "E-Mail an unser Team": "Schreiben Sie unserem Team eine E-Mail:",
+  "Unser Team beantwortet alle Anfragen innerhalb eines Werktages": "(Unser Team beantwortet alle Anfragen innerhalb eines Werktages.)",
+  "Telefonische Kontaktaufnahme": "Kontaktieren Sie unser Team telefonisch:",
+  "Anfragen an unseren Vertrieb": "Für allgemeine oder geschäftliche Anfragen an unseren Vertrieb rufen Sie bitte unsere Hotline an:",
+  "Öffnungszeiten": "Unsere offiziellen Öffnungszeiten für Kundenservice und technischen Support finden Sie unten:",
+  "WhatsApp-Nachrichten": "Schreiben Sie unserem Team eine Nachricht über WhatsApp:",
+  "Postanschrift": "Wenn Sie uns schreiben möchten, lautet unsere Postanschrift:"
+}

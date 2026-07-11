@@ -1,0 +1,53 @@
+{
+  "getInTouch": "PRENEZ-NOUS CONTACT",
+
+  "start": "COMMENT DÉMARRER",
+
+  "howCanWeHelpYou": "COMMENT POUVONS-NOUS VOUS AIDER ?",
+
+  "getInTouchWithUs": "PRENEZ-NOUS CONTACTER !",
+
+  "registeredOfficeAdddress": "ADRESSE DU SIÈGE SOCIAL :",
+
+  "fdPlastixToolz&sparezLTD": "FD PLASTIX, TOOLZ & SPAREZ LTD",
+
+  "theStorageTeamOfARTCenter": "L'ÉQUIPE DE STOCKAGE DU CENTRE A.R.T.",
+
+  "tanHouseLane": "RUE DE LA MAISON TAN",
+
+  "widnes": "VIDNES",
+
+  "wa80RR": "WA8 0RR",
+
+  "unitedKingdom": "ROYAUME-UNI",
+
+  "ourHomePageURL": "URL de notre page d'accueil :",
+
+  "customarServicePhoneLine": "Ligne téléphonique du service client ",
+  "operating Days": "Jours d'ouverture) ",
+  "businessHours": {
+    "mondayFriday": "Lundi - Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "bankHoliday": "Jours fériés",
+    "closed": "Fermé"
+  },
+
+  "getInTouchThroughTheseChannels": "PRENEZ-NOUS CONTACT PAR CES CANAUX CANAUX :",
+
+  "emailOurTram": "Envoyez un e-mail à notre équipe :",
+
+  "ourTeamRespondsToAllInuquiriesWithinOneBusinessDay": "(Notre équipe répond à toutes les demandes dans un délai d'un jour ouvrable.)",
+
+  "connectWithOurTeamViaPhone": "Contactez notre équipe par téléphone :",
+
+  "toReachOurSalesDepartmentForGeneralOrCommercialInquiries": "Pour contacter notre service commercial pour toute question d'ordre général ou commercial, veuillez appeler notre ligne d'assistance dédiée :",
+
+  "plzFindBelow..operationHours": "Veuillez trouver ci-dessous les horaires d'ouverture de notre service client et de notre assistance technique :",
+
+  "messageOurTeamViaWhatsapp": "Contactez notre équipe via WhatsApp :",
+
+  "contactUsByPost": "Contactez-nous par courrier : ",
+
+  "ifYouWishtoWrieToUsMailingAddressIs": "Si vous souhaitez nous écrire, notre adresse postale est : "
+}

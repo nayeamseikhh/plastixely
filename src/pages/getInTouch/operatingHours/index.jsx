@@ -8,6 +8,8 @@
 //               Operating Day(s)
 //             </th>
 
+import { useTranslation } from "react-i18next";
+
 //             <th className="border-2 border-black px-6 py-5">
 //               <h2 className="text-2xl font-bold underline">
 //                 FD PLASTIX, TOOLZ & SPAREZ LTD
@@ -68,14 +70,22 @@
 
 // export default OperatingHours;
 
+// const hours = [
+//   { day: "Monday - Friday", time: "9:00 AM - 6:00 PM" },
+//   { day: "Saturday", time: "10:00 AM - 4:00 PM" },
+//   { day: "Sunday", time: "Closed" },
+//   { day: "Bank / Public Holiday(s)", time: "Closed" },
+// ];
 const hours = [
-  { day: "Monday - Friday", time: "9:00 AM - 6:00 PM" },
-  { day: "Saturday", time: "10:00 AM - 4:00 PM" },
-  { day: "Sunday", time: "Closed" },
-  { day: "Bank / Public Holiday(s)", time: "Closed" },
+  { day: "businessHours.mondayFriday", time: "9:00 AM - 6:00 PM" },
+  { day: "businessHours.saturday", time: "10:00 AM - 4:00 PM" },
+  { day: "businessHours.sunday", time: "businessHours.closed" },
+  { day: "businessHours.bankHoliday", time: "businessHours.closed" },
 ];
 
 const OperatingHours = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* Mobile */}
@@ -85,17 +95,17 @@ const OperatingHours = () => {
         </h2>
 
         <p className="text-center text-sm font-medium">
-          Customer Service Phone Line
+          {t("customarServicePhoneLine")}
         </p>
 
         {hours.map((item, index) => (
           <div
             key={index}
-            className="border-2 border-black rounded-lg p-4 shadow-sm"
+            className="border-2 border-white rounded-lg p-4 shadow-sm"
           >
-            <p className="font-bold">{item.day}</p>
+            <p className="font-bold">{t(item.day)}</p>
 
-            <p className="mt-2 text-gray-700">{item.time}</p>
+            <p className="mt-2 text-gray-700">{t(item.time)}</p>
           </div>
         ))}
       </div>
@@ -106,7 +116,7 @@ const OperatingHours = () => {
           <thead>
             <tr>
               <th className="border-2 border-white px-6 py-5 text-2xl font-bold underline">
-                Operating Day(s)
+                {t("operatingDays")}
               </th>
 
               <th className="border-2 border-white px-6 py-5">
@@ -115,7 +125,7 @@ const OperatingHours = () => {
                 </h2>
 
                 <p className="mt-2 text-xl font-semibold underline">
-                  Customer Service Phone Line
+                  {t("customarServicePhoneLine")}
                 </p>
               </th>
             </tr>
@@ -125,11 +135,11 @@ const OperatingHours = () => {
             {hours.map((item, index) => (
               <tr key={index}>
                 <td className="border-2 border-white py-8 text-2xl italic font-semibold">
-                  {item.day}
+                  {t(item.day)}
                 </td>
 
                 <td className="border-2 border-white py-8 text-xl italic">
-                  {item.time}
+                  {t(item.time)}
                 </td>
               </tr>
             ))}

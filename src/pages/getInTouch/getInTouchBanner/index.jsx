@@ -18,12 +18,12 @@ const GetInTouchBanner = () => {
 
         <div className="relative z-10 flex h-full flex-col  text-center text-white px-4">
           <h1 className="text-xl font-bold md:text-6xl font-poppins pt-55  md:pt-152">
-            {t("GET_IN_TOUCH")}
+            {t("getInTouch")}
           </h1>
           <div className="flex items-center justify-center my-4 md:my-0 md:mt-10 text-sm md:text-xl font-poppins">
-            <p>GET IN TOUCH </p>
+            <p>{t("getInTouch")}</p>
             <MdKeyboardDoubleArrowRight className="mx-5" />
-            <a href="./">START</a>
+            <a href="./">{t("start")}</a>
           </div>
         </div>
       </div>

@@ -1,3 +1,34 @@
 {
-  "GET_IN_TOUCH": "PONTE EN CONTACTO"
+  "getInTouch": "PONTE EN CONTACTO",
+  "start": "INICIAR",
+  "howCanWeHelpYou": "¿EN QUÉ PODEMOS AYUDARTE?",
+  "getInTouchWithUs": "¡PONTE EN CONTACTO CON NOSOTROS!",
+  "registeredOfficeAdddress": "DIRECCIÓN DE LA OFICINA REGISTRADA:",
+  "fdPlastixToolz&sparezLTD": "FD PLASTIX, TOOLZ & SPAREZ LTD",
+  "theStorageTeamOfARTCenter": "EL EQUIPO DE ALMACENAMIENTO DE A.R.T. CENTRE",
+  "tanHouseLane": "TAN HOUSE LANE",
+  "widnes": "WIDNES",
+  "wa80RR": "WA8 0RR",
+  "unitedKingdom": "REINO UNIDO",
+  "ourHomePageURL": "URL de nuestra página de inicio:",
+
+  "customarServicePhoneLine": "Línea telefónica de atención al cliente",
+  "operatingDays": "Días de funcionamiento",
+  "businessHours": {
+    "mondayFriday": "Lunes - Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "bankHoliday": "Días festivos",
+    "closed": "Cerrado"
+  },
+
+  "getInTouchThroughTheseChannels": "PONTE EN CONTACTO CON NOSOTROS A TRAVÉS DE ESTOS CANALES:",
+  "emailOurTram": "Envíe un correo electrónico a nuestro equipo.:",
+  "ourTeamRespondsToAllInuquiriesWithinOneBusinessDay": "(Nuestro equipo responde a todas las consultas en el plazo de un día hábil.)",
+  "connectWithOurTeamViaPhone": "Comunícate con nuestro equipo por teléfono:",
+  "toReachOurSalesDepartmentForGeneralOrCommercialInquiries": "Para comunicarse con nuestro departamento de ventas para consultas generales o comerciales, llame a nuestra línea de atención telefónica designada:",
+  "plzFindBelow..operationHours": "A continuación encontrará nuestro horario oficial de atención al cliente y soporte técnico:",
+  "messageOurTeamViaWhatsapp": "Envía un mensaje a nuestro equipo a través de WhatsApp:",
+  "contactUsByPost": "Contáctenos por correo postal: ",
+  "ifYouWishtoWrieToUsMailingAddressIs": "Si desea escribirnos, nuestra dirección postal es: "
 }

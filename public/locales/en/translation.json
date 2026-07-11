@@ -1,3 +1,35 @@
 {
-  "GET_IN_TOUCH": "GET IN TOUCH"
+  "getInTouch": "GET IN TOUCH",
+  "start": "START",
+  "howCanWeHelpYou": "HOW CAN WE HELP YOU ?",
+  "getInTouchWithUs": "GET IN TOUCH WITH US !",
+  "registeredOfficeAdddress": "REGISTERED OFFICE ADDRESS:",
+  "fdPlastixToolz&sparezLTD": "FD PLASTIX, TOOLZ & SPAREZ LTD",
+  "theStorageTeamOfARTCenter": "THE STORAGE TEAM OF A.R.T. CENTRE",
+  "tanHouseLane": "TAN HOUSE LANE",
+  "widnes": "WIDNES",
+  "wa80RR": "WA8 0RR",
+  "unitedKingdom": "UNITED KINGDOM",
+  "ourHomePageURL": "Our HomePage URL :",
+
+  "customarServicePhoneLine": " Customer Service Phone Line ",
+  "operatingDays": "Operating Day(s) ",
+  "businessHours": {
+    "mondayFriday": "Monday - Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "bankHoliday": "Bank / Public Holiday(s)",
+    "closed": "Closed"
+  },
+
+  "getInTouchThroughTheseChannels": "GET IN TOUCH THROUGH THESE CHANNELS:",
+  "emailOurTram": "Email our team:",
+  "ourTeamRespondsToAllInuquiriesWithinOneBusinessDay": "(Our team responds to all inquiries within one business day. )",
+  "connectWithOurTeamViaPhone": "Connect with our team via Phone:",
+  "toReachOurSalesDepartmentForGeneralOrCommercialInquiries": "To reach our sales department for general or commercial inquiries, please call our designated helpline:",
+  "plzFindBelow..operationHours": "Please find below our official customer service and technical support operating hours:",
+
+  "messageOurTeamViaWhatsapp": "Message our team via WhatsApp:",
+  "contactUsByPost": "Contact us by Post: ",
+  "ifYouWishtoWrieToUsMailingAddressIs": "If you wish to write to us, our mailing address is: "
 }
