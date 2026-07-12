@@ -52,7 +52,7 @@
   padding-left: 20px !important;
   border: none !important;
 }
-/* Mobile */
+/* Mobile language custom selector*/
 @media (max-width: 768px) {
   .custom-language {
     width: 110px !important;
@@ -72,8 +72,8 @@
 }
 /* custom selector ant design custization */
 
-.custom-dropdown {
-  background-color: #334155;
+/* .custom-dropdown {
+  background-color: #334155 !important;
   border-radius: 12px;
   padding: 8px;
   color: white;
@@ -81,28 +81,66 @@
 .custom-dropdown .ant-dropdown-menu-item {
   color: white !important;
   border-radius: 8px;
+} */
+/* another dropdown  */
+
+/* Custom Category dropdown css Start */
+/* Dropdown container */
+.custom-dropdown .ant-dropdown-menu {
+  background-color: #374151 !important; /* gray-700 */
+  border-radius: 12px !important;
+  padding: 8px !important;
+  min-width: 220px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Menu items */
+.custom-dropdown .ant-dropdown-menu-item {
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 10px 16px !important;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.custom-dropdown .ant-dropdown-menu-item:hover {
+  background-color: #4b5563 !important; /* gray-600 */
+  color: #ffffff !important;
+}
+
+/* Selected */
+.custom-dropdown .ant-dropdown-menu-item-active {
+  background-color: #6b7280 !important; /* gray-500 */
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .custom-dropdown .ant-dropdown-menu {
+    min-width: 180px;
+    padding: 6px !important;
+    border-radius: 10px !important;
+  }
+
+  .custom-dropdown .ant-dropdown-menu-item {
+    padding: 8px 12px !important;
+    font-size: 14px;
+  }
+}
+/* Custom Category dropdown css Start */
+
+.custom-currency-dropdown .ant-dropdown-menu-item {
+  text-align: center !important;
+  align-items: center !important;
 }
 
 .custom-dropdown .ant-dropdown-menu-item:hover {
   /* background-color: #334155 !important; */
   color: #ff8b02 !important;
 }
-/* another dropdown  */
-.custom-currency-dropdown .ant-dropdown-menu-item {
-  text-align: center !important;
-  align-items: center !important;
-}
-/* .ant-space-item{
-  background-color: red;
-  padding: 0 !important;
-  align-items: center;
-
-} */
 
 .getintouch {
   background-image: url("/src//assets/background/Background01.jpeg");
   background-size: contain;
-  /* background-position: center; */
   background-repeat: repeat;
-  /* background-attachment: fixed; */
 }
