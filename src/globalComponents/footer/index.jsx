@@ -31,13 +31,13 @@ const Footer = () => {
         </Container>
 
         <Container>
-          <div className="md:py-10">
+          <div className="md:pt-10">
             <PaymentPart />
           </div>
         </Container>
       </div>
 
-      <div className="bg-black01 md:pb-10 pt-4 md:pt-0">
+      <div className="bg-black01 md:pb-10 pt-4 md:pt-10">
         <div className="text-black">
           <FooterText />
         </div>

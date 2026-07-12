@@ -114,8 +114,8 @@ const items = [
 const Drawer = () => {
   return (
     <div>
-      <div className="grid grid-cols-[auto_auto_auto] gap-x-2 md:flex md:gap-x-6 md:items-center">
-        <div>
+      <div className="grid grid-cols-[auto_auto_auto] gap-x-2 md:flex md:gap-x-6 items-center">
+        <div className="md:mt-0 mt-2">
           <Dropdown menu={{ items }} trigger={["click"]}>
             <a onClick={(e) => e.preventDefault()}>
               <Space>

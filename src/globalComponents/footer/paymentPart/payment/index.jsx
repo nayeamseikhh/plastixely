@@ -10,7 +10,7 @@ const PaymentMethood = () => {
       <div className="flex flex-col items-center text-white font-poppins font-semibold  text-xl">
         <h6>SECURE PAYMENT OPTIONS</h6>
         <br />
-        <div className=" mt-4 md:mt-0">
+        <div className=" mt-4 md:mt-6">
           <div className="flex items-center gap-8 justify-center">
             {/* <p>-Visa</p> */}{" "}
             <img

@@ -7,13 +7,13 @@ const FooterText = () => {
       <div className=" text-white leading-8 hidden md:block w-full ">
         <p className="text-center  text-xl  font-open-sans">
           <i>
-            © 2026 FD PLASTIX, TOOLZ & SPAREZ LTD, CRN: 17190057, EORI
-            NUMBER:&nbsp;&nbsp;&nbsp;GB048164708000 <br />
+            © 2026 FD PLASTIX, TOOLZ & SPAREZ LTD, CRN: 17190057, EORI NUMBER:
+            GB048164708000 <br />
             Registered Office Address: The Storage Team of A.R.T. Centre, Tan
             House Lane, Widnes, WA8 0RR, UNITED KINGDOM
           </i>
         </p>
-        <p className="text-center text-lg my-10 font-open-sans">
+        <p className="text-center text-lg mt-8 font-open-sans">
           <i>
             {" "}
             FD PLASTIX, TOOLZ & SPAREZ LTD is an independent specialist reseller
@@ -26,15 +26,14 @@ const FooterText = () => {
             purposes.
           </i>
         </p>
-        <p className="text-center text-sm font-open-sans">
+        <p className="text-center text-sm font-open-sans mt-8">
           <i>
             © FD PLASTIX, TOOLZ & SPAREZ LTD 2026 | All rights reserved <br />
-            FD PLASTIX, TOOLZ & SPAREZ LTD T/A FD PTnS Company
-            Number:&nbsp;&nbsp;&nbsp;17190057
+            FD PLASTIX, TOOLZ & SPAREZ LTD T/A FD PTnS Company Number: 17190057
           </i>
         </p>
         <br />
-        <p className="text-center  text-lg  font-open-sans">
+        <p className="text-center  text-lg font-open-sans">
           <i>
             <u>Website by FD & NS</u>
           </i>
@@ -45,8 +44,8 @@ const FooterText = () => {
       <div className=" text-white leading-8 md:hidden">
         <p className="text-center   text-xl font-open-sans">
           <i>
-            © 2026 FD PLASTIX, TOOLZ & SPAREZ LTD, CRN: 17190057, EORI
-            NUMBER:&nbsp;&nbsp;&nbsp;GB048164708000 <br />
+            © 2026 FD PLASTIX, TOOLZ & SPAREZ LTD, CRN: 17190057, EORI NUMBER:
+            GB048164708000 <br />
             Registered Office Address: The Storage Team of A.R.T. Centre, Tan
             House Lane, Widnes, WA8 0RR, UNITED KINGDOM
           </i>
