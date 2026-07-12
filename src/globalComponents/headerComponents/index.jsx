@@ -8,7 +8,7 @@ const HearderComponents = () => {
   return (
     <>
       <div className="hidden md:block">
-        <div className="flex justify-between bg-black01 text-white01  md:block lg:gap-x-5">
+        <div className="flex justify-between bg-black01 text-white01  md:block ">
           <TopBar />
           <MiddleBar />
           <Navbar />

@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const TopRightLayout = () => {
   return (
     <>
-      <div className="flex md:gap-x-5 items-center md:justify-end justify-center gap-x-2 p-4 md:p-0">
+      <div className="flex md:gap-x-2 items-center justify-center md:justify-end lg:gap-x-4 gap-x-2 py-4 md:p-0 text-[11px] lg:text-[13px] xl:text-[16px] 2xl:text-[18px]">
         <a
           href="https://www.facebook.com/share/1CdWFtmWXP/"
           target="_blank"
@@ -20,7 +20,7 @@ const TopRightLayout = () => {
           rel="noopener noreferrer"
           aria-label="Instagram page"
         >
-          <FaInstagram size={22} className="cursor-pointer" />
+          <FaInstagram size={22} className="cursor-pointer " />
         </a>
 
         <a
