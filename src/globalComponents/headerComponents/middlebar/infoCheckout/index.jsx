@@ -7,7 +7,7 @@ import { Link } from "react-router";
 const InfoCheckout = () => {
   return (
     <>
-      <div className="flex justify-between items-center  gap-x-2 ">
+      <div className="grid grid-cols-3 items-center ">
         <div className="text-center cursor-pointer">
           <MdHelp className="mx-auto md:text-2xl" />
           <p className="text-[8px] md:text-[14px] mt-1 font-poppins">HELP</p>
@@ -25,7 +25,7 @@ const InfoCheckout = () => {
         <div className="text-center cursor-pointer">
           <div className="flex justify-center">
             <RiShoppingCartFill className=" md:text-2xl" />
-            <div className="md:h-4 md:w-4 h-2 w-2 rounded-full bg-red-500 flex items-center justify-center ">
+            <div className="md:h-4 md:w-4 h-2 w-2 -ml-2 rounded-full bg-red-500 flex items-center justify-center ">
               <p className="text-white01 md:text-sm text-[10px] font-poppins">
                 0
               </p>

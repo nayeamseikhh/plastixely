@@ -21,7 +21,7 @@ const CurrencyBox = () => {
     },
   ];
   return (
-    <div className="mt-5 ">
+    <div className="grid grid-cols-1 items-center ">
       <div>
         <Select
           labelInValue

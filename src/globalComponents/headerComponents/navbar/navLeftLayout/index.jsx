@@ -19,12 +19,12 @@ const NavLeftLayout = () => {
     .toUpperCase();
   return (
     <>
-      <div className="flex gap-x-5">
-        <p className="text-2xl  font-poppins">
+      <div className="flex gap-x-6">
+        <p className="text-[20px]  font-poppins">
           {/* {currentTime.toDateString()}, {currentTime.toLocaleTimeString()} */}
           {date}
         </p>
-        <p className="text-2xl  font-poppins">
+        <p className="text-[20px]  font-poppins">
           {/* {currentTime.toDateString()}, {currentTime.toLocaleTimeString()} */}
           {time}
         </p>

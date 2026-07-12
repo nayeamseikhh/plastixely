@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 const SearchBox = () => {
   return (
     <>
-      <div className="mt-5">
+      <div className="grid grid-cols-1 items-center">
         <div className="flex gap-x-5 h-10 w-full bg-white01 rounded-2xl items-center pl-5">
           <div className=" text-white02">
             <FaSearch size={20} />

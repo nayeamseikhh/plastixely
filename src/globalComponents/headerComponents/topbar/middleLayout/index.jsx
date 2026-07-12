@@ -4,7 +4,7 @@ import { MdLocalShipping } from "react-icons/md";
 const TopMiddleLayout = () => {
   return (
     <>
-      <div className="flex justify-center gap-x-2 md:my-2 items-center  font-poppins text-[14px] md:text-base font-light text-white">
+      <div className="flex justify-center gap-x-2  items-center  font-poppins text-[14px] md:text-base font-light text-white">
         <div>
           <MdLocalShipping size={20} color="orange" />
         </div>
