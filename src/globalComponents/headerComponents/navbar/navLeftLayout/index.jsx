@@ -1,17 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 const NavLeftLayout = () => {
-  // const [currentTime, setCurrentTime] = useState(new Date());
-  // useEffect(() => {
-  //   // Update the state every second
-  //   const timer = setInterval(() => {
-  //     setCurrentTime(new Date());
-  //   }, 1000);
-
-  // Clear the interval when the component unmounts to prevent memory leaks
-  //   return () => clearInterval(timer);
-  // }, []);
-
   const date = new Date()
     .toLocaleDateString("en-GB", {
       timeZone: "Europe/London",

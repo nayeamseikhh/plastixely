@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <div className="p-5 bg-black">
         <Container>
-          <div className="flex  gap-x-10 justify-between">
+          <div className="flex  gap-x-8 justify-between">
             <NavLeftLayout />
             <NavRightLayout />
           </div>
