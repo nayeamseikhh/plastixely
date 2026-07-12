@@ -19,7 +19,7 @@ const FooterTop = () => {
             type="text"
             name="email"
             id="email"
-            className=" w-[95%] md:w-[85%] bg-white  p-2 px-4 md:py-4 rounded-sm text-black outline-none"
+            className=" w-[95%] md:w-[85%] bg-white  p-2 px-4 md:py-4 rounded-sm text-black outline-none border-none"
             placeholder="Email"
           />
 
