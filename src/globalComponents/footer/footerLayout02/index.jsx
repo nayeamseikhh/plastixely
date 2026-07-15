@@ -4,7 +4,7 @@ const FooterLayout02 = () => {
       <p className="text-white font-poppins font-semibold ">
         WELCOME TO OUR WORLD
       </p>
-      <p className="text-white font-poppins font-semibold  my-2 lg:-ml-18 xl:ml-0">
+      <p className="text-white font-poppins font-semibold   my-4 md:my-6 lg:-ml-18 xl:ml-0">
         GET IN TOUCH
       </p>
       <p className="text-white font-poppins font-semibold  ">

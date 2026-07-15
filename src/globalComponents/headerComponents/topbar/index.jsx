@@ -8,7 +8,7 @@ const TopBar = () => {
   return (
     <>
       <Container>
-        <div className="grid grid-cols-3 pt-4">
+        <div className="grid grid-cols-3  pt-4">
           <TopLeftLayout />
           <TopMiddleLayout />
           <TopRightLayout />

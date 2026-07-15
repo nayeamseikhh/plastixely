@@ -21,18 +21,20 @@ const CurrencyBox = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 items-center ">
-      <div>
-        <Select
-          labelInValue
-          defaultValue={{ value: "gbp", label: <GBP /> }}
-          style={{ width: 120 }}
-          onChange={() => {}}
-          options={currencyOptions}
-          classNames={{
-            root: "custom-selector",
-          }}
-        />
+    <div>
+      <div className="grid grid-cols-1 items-center ">
+        <div>
+          <Select
+            labelInValue
+            defaultValue={{ value: "gbp", label: <GBP /> }}
+            style={{ width: 120 }}
+            onChange={() => {}}
+            options={currencyOptions}
+            classNames={{
+              root: "custom-selector",
+            }}
+          />
+        </div>
       </div>
     </div>
   );

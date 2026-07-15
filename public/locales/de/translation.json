@@ -24,12 +24,13 @@
     "closed": "Geschlossen"
   },
 
-  "Kontaktieren Sie uns über diese Kanäle": "Nehmen Sie über diese Kanäle Kontakt auf:",
-  "E-Mail an unser Team": "Schreiben Sie unserem Team eine E-Mail:",
-  "Unser Team beantwortet alle Anfragen innerhalb eines Werktages": "(Unser Team beantwortet alle Anfragen innerhalb eines Werktages.)",
-  "Telefonische Kontaktaufnahme": "Kontaktieren Sie unser Team telefonisch:",
-  "Anfragen an unseren Vertrieb": "Für allgemeine oder geschäftliche Anfragen an unseren Vertrieb rufen Sie bitte unsere Hotline an:",
-  "Öffnungszeiten": "Unsere offiziellen Öffnungszeiten für Kundenservice und technischen Support finden Sie unten:",
-  "WhatsApp-Nachrichten": "Schreiben Sie unserem Team eine Nachricht über WhatsApp:",
-  "Postanschrift": "Wenn Sie uns schreiben möchten, lautet unsere Postanschrift:"
+  "getInTouchThroughTheseChannels": "Nehmen Sie über diese Kanäle Kontakt auf:",
+  "emailOurTram": "Schreiben Sie unserem Team eine E-Mail:",
+  "ourTeamRespondsToAllInuquiriesWithinOneBusinessDay": "( Unser Team beantwortet alle Anfragen innerhalb eines Werktages.)",
+  "connectWithOurTeamViaPhone": "Kontaktieren Sie unser Team telefonisch:",
+  "toReachOurSalesDepartmentForGeneralOrCommercialInquiries": "Für allgemeine oder geschäftliche Anfragen an unseren Vertrieb rufen Sie bitte unsere Hotline an:",
+  "plzFindBelow..operationHours": "Unsere offiziellen Öffnungszeiten für Kundenservice und technischen Support finden Sie unten:",
+  "messageOurTeamViaWhatsapp": "Schreiben Sie unserem Team über WhatsApp:",
+  "contactUsByPost": "Kontaktieren Sie uns per Post:",
+  "ifYouWishtoWrieToUsMailingAddressIs": "Wenn Sie uns schreiben möchten, lautet unsere Postanschrift:"
 }
