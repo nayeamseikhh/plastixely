@@ -8,7 +8,7 @@ const InfoCheckout = () => {
   return (
     <>
       <div>
-        <div className="flex justify-between">
+        <div className="flex justify-between gap-x-2 md:gap-x-0">
           <div className="text-center cursor-pointer">
             <MdHelp className="mx-auto md:text-2xl" />
             <p className="text-[8px] md:text-[14px] mt-1 font-poppins">HELP</p>
