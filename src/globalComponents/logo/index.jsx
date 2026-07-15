@@ -9,9 +9,12 @@ const Logo = () => {
           <img
             src={logo}
             alt="Plastixely Logo"
-            className="md:h-12 md:w-60 md:my-5 h-8 w-40 text-start"
+            className="md:h-12 md:w-60  h-8 w-40 text-start"
           />
         </a>
+        <p className="text-white mt-2 text-center font-poppins text-[12px]">
+          <i>" Our difference is our distinctiveness "</i>
+        </p>
       </div>
     </>
   );
