@@ -51,7 +51,7 @@ const FooterText = () => {
           </i>
         </p>
 
-        <p className="text-center  text-xl my-10 font-open-sans">
+        <p className="text-center  text-xl my-8 font-open-sans">
           <i>
             {" "}
             FD PLASTIX, TOOLZ & SPAREZ LTD is an independent specialist reseller

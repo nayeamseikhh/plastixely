@@ -21,8 +21,8 @@ const Footer = () => {
           <div className="text-white md:py-10 ">
             <FooterTop />
           </div>
-          <div className="border-t border-gray-600 mt-8 md:mt-0"></div>
-          <div className="md:grid md:grid-cols-4 gap-10 md:pt-10">
+          <div className="border-t border-gray-600 mt-6  md:mt-0"></div>
+          <div className="md:grid md:grid-cols-4 gap-10 pt-4 md:pt-10">
             <FooterLayout01 />
             <FooterLayout02 />
             <FooterLayout03 />
