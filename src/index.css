@@ -144,3 +144,8 @@
   background-size: contain;
   background-repeat: repeat;
 }
+.expertise {
+  background-image: url("/src//assets/background/Background01.jpeg");
+  background-size: contain;
+  background-repeat: repeat;
+}

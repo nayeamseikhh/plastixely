@@ -5,6 +5,7 @@ import GetInTouch from "./pages/getInTouch";
 import RootLayout from "./layout/rootLayout/RootLayout";
 import SignUp from "./pages/auth/registration";
 import Login from "./pages/auth/login";
+import Expertise from "./pages/expertise";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const App = () => {
         {
           path: "/login",
           element: <Login />,
+        },
+        {
+          path: "/expertise",
+          element: <Expertise />,
         },
       ],
     },

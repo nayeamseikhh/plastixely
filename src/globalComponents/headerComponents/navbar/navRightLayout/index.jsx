@@ -16,7 +16,7 @@ const NavRightLayout = () => {
         </div>
         <div>|</div>
         <div className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300">
-          OUR EXPERTISE
+          <Link to="/expertise">OUR EXPERTISE</Link>
         </div>
         <div>|</div>
         <div className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300">
