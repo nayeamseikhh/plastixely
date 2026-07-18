@@ -7,7 +7,7 @@ const FooterLayout01 = () => {
       <a href="./">
         <img src={logo} alt="Logo" />
       </a>
-      <p className="text-white my-6 md:mt-7 text-center font-poppins text-[17px]">
+      <p className="text-white my-6 md:mt-2 text-center font-poppins text-[17px]">
         <i>" Our difference is our distinctiveness "</i>
       </p>
     </div>
