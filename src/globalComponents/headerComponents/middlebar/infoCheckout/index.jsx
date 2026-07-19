@@ -15,7 +15,7 @@ const InfoCheckout = () => {
           </div>
 
           <div className="text-center cursor-pointer">
-            <Link to="/registration" onClick={() => setOpen(true)}>
+            <Link to="/registration">
               <CgProfile className="mx-auto md:text-2xl" />
               <p className="text-[8px] md:text-[14px] mt-1 font-poppins">
                 SIGNUP

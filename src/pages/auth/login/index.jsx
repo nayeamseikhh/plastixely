@@ -1,4 +1,5 @@
 import { FaEyeSlash, FaEnvelope, FaCheckCircle } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Login = () => {
   return (
@@ -74,13 +75,15 @@ const Login = () => {
 
         {/* Bottom */}
         <p className="text-center text-sm text-gray-500 mt-24">
-          Don't have an account?{" "}
-          <a
-            href="/signup"
-            className="text-blue-600 font-medium hover:underline"
-          >
-            Sign Up
-          </a>
+          Don't have an account?
+          <Link to="/registration">
+            <a
+              href="/signup"
+              className="text-blue-600 font-medium hover:underline"
+            >
+              Sign Up
+            </a>
+          </Link>
         </p>
       </div>
     </section>
