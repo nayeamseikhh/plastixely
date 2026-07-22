@@ -6,6 +6,7 @@ import RootLayout from "./layout/rootLayout/RootLayout";
 import SignUp from "./pages/auth/registration";
 import Login from "./pages/auth/login";
 import Expertise from "./pages/expertise";
+import WelcomeToOurWorld from "./pages/welcomeToOurWorld";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -18,7 +19,7 @@ const App = () => {
           element: <Home />,
         },
         {
-          path: "/get_in_touch",
+          path: "/get-in-touch",
           element: <GetInTouch />,
         },
         {
@@ -32,6 +33,10 @@ const App = () => {
         {
           path: "/expertise",
           element: <Expertise />,
+        },
+        {
+          path: "/weclome-to-our-world",
+          element: <WelcomeToOurWorld />,
         },
       ],
     },
