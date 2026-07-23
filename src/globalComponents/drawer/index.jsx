@@ -15,7 +15,6 @@ const items = [
         to="/"
         className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
       >
-        {" "}
         START
       </Link>
     ),
@@ -24,7 +23,7 @@ const items = [
     key: "2",
     label: (
       <Link
-        to=""
+        to="/weclome-to-our-world"
         className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
       >
         WELCOME TO OUR WORLD
@@ -35,7 +34,7 @@ const items = [
     key: "3",
     label: (
       <Link
-        to=""
+        to="/expertise"
         className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
       >
         OUR EXPERTISE
@@ -102,7 +101,7 @@ const items = [
     key: "6",
     label: (
       <Link
-        to="/get_in_touch"
+        to="/get-in-touch"
         className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
       >
         GET IN TOUCH
