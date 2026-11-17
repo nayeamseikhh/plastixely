@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const FooterText = () => {
   return (
@@ -35,7 +35,12 @@ const FooterText = () => {
         <br />
         <p className="text-center  text-lg font-open-sans">
           <i>
-            <u>Website by FD & NS</u>
+            <u className="text-2xl font-bold">Website by FD & NS</u>
+            <br />
+            <u className="font-semibold text-lg">
+              *All images, graphics, and visual content are designed <br /> and
+              created by FD and are protected by copyright.
+            </u>
           </i>
         </p>
       </div>
@@ -53,7 +58,6 @@ const FooterText = () => {
 
         <p className="text-center  text-xl my-8 font-open-sans">
           <i>
-            {" "}
             FD PLASTIX, TOOLZ & SPAREZ LTD is an independent specialist reseller
             of genuine vehicle parts and power tool components. <br /> We are
             not an authorised dealer, partner, or affiliate of any vehicle or
@@ -73,6 +77,10 @@ const FooterText = () => {
         <p className="text-center  text-lg  font-open-sans">
           <i>
             <u>Website by FD & NS</u>
+            <br />
+            <u className="font-semibold text-xl">
+              *All images, graphics, and visual content are designed <br /> and created by FD and are protected by copyright.
+            </u>
           </i>
         </p>
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Container from "../Container";
 import FooterLayout01 from "./footerLayout01";
 import FooterLayout02 from "./footerLayout02";
@@ -6,11 +6,11 @@ import FooterLayout03 from "./footerLayout03";
 import FooterLayout04 from "./footerLayout04";
 import FooterTop from "./footerTop";
 import FooterText from "./footerTop/footerText";
-import visa from "../../assets/icon/visa.jpg";
-import applePay from "../../assets/icon/apple-pay.png";
-import mastercard from "../../assets/icon/mastercard02.svg";
-import paypal from "../../assets/icon/paypal.png";
-import googlePay from "../../assets/icon/gpay02.png";
+// import visa from "../../assets/icon/visa.jpg";
+// import applePay from "../../assets/icon/apple-pay.png";
+// import mastercard from "../../assets/icon/mastercard02.svg";
+// import paypal from "../../assets/icon/paypal.png";
+// import googlePay from "../../assets/icon/gpay02.png";
 import PaymentPart from "./paymentPart";
 
 const Footer = () => {

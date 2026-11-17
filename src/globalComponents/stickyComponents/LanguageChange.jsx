@@ -87,6 +87,21 @@ const LanguageChange = () => {
     },
 
     {
+      value: "Portuguese",
+      language: "pt",
+      label: (
+        <div className="flex items-center gap-x-2  font-semibold ">
+          <img
+            src="https://flagcdn.com/pt.svg"
+            alt="flag"
+            className="w-10 h-7 object-cover rounded-xs"
+          />
+          <span className="hidden md:block ">Portuguese</span>
+          <span className=" md:hidden ">PT</span>
+        </div>
+      ),
+    },
+    {
       value: "Turkey",
       language: "tr",
       label: (
