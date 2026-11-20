@@ -8,7 +8,7 @@ const FooterLayout03 = () => {
       <p className="text-white font-poppins font-semibold my-4 md:my-6 lg:ml-12 xl:ml-0">
         RETURNS POLICY
       </p>
-      <p className="text-white font-poppins font-semibold lg:ml-12 xl:ml-0 text-2xl ">
+      <p className="text-white font-poppins font-semibold lg:-ml-18 xl:ml-0">
         CANCELLATION POLICY
       </p>
     </div>

@@ -35,7 +35,7 @@ const FooterText = () => {
         <br />
         <p className="text-center  text-lg font-open-sans">
           <i>
-            <u className="text-2xl font-bold">Website by FD & NS</u>
+            <u className="text-2xl font-bold">Website by FD* & NS</u>
             <br />
             <u className="font-semibold text-lg">
               *All images, graphics, and visual content are designed <br /> and
@@ -76,7 +76,7 @@ const FooterText = () => {
         </p>
         <p className="text-center  text-lg  font-open-sans">
           <i>
-            <u>Website by FD & NS</u>
+            <u>Website by FD* & NS</u>
             <br />
             <u className="font-semibold text-xl">
               *All images, graphics, and visual content are designed <br /> and created by FD and are protected by copyright.
