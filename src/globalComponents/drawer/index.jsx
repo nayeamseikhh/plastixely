@@ -1,13 +1,13 @@
-import React from "react";
 import Logo from "../logo";
 import InfoCheckout from "../headerComponents/middlebar/infoCheckout";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
-import Category from "../headerComponents/navbar/navRightLayout/category";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
-const items = [
+const Drawer = () => {
+  const { t } = useTranslation();
+  const items = [
   {
     key: "1",
     label: (
@@ -15,7 +15,7 @@ const items = [
         to="/"
         className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
       >
-        START
+        {t("start")}
       </Link>
     ),
   },
@@ -26,7 +26,7 @@ const items = [
         to="/weclome-to-our-world"
         className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
       >
-        WELCOME TO OUR WORLD
+        {t("welcomeToOurWorld")}
       </Link>
     ),
   },
@@ -37,13 +37,13 @@ const items = [
         to="/expertise"
         className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
       >
-        OUR EXPERTISE
+        {t("expertisePageTitle")}
       </Link>
     ),
   },
   {
     key: "4",
-    label: "CATEGORY",
+    label: t("category"),
 
     children: [
       {
@@ -55,7 +55,7 @@ const items = [
             href=""
             className="text-white01"
           >
-            AUTOMOBILE
+            {t("automobile")}
           </a>
         ),
       },
@@ -63,7 +63,7 @@ const items = [
         key: "4-2",
         label: (
           <a target="_blank" rel="noopener noreferrer" href="">
-            MOTORCYCLE
+            {t("motorcycle")}
           </a>
         ),
       },
@@ -71,7 +71,7 @@ const items = [
         key: "4-3",
         label: (
           <a target="_blank" rel="noopener noreferrer" href="">
-            POWER TOOLS
+            {t("powerTools")}
           </a>
         ),
       },
@@ -79,7 +79,7 @@ const items = [
         key: "4-4",
         label: (
           <a target="_blank" rel="noopener noreferrer" href="">
-            LANDSCAPING TOOLS
+            {t("landscapingTools")}
           </a>
         ),
       },
@@ -93,7 +93,7 @@ const items = [
         className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
       >
         {" "}
-        CONSULTING SERVICES
+        {t("consultingServices")}
       </Link>
     ),
   },
@@ -104,13 +104,12 @@ const items = [
         to="/get-in-touch"
         className="font-poppins cursor-pointer hover:text-orange01 transition-colors duration-300 "
       >
-        GET IN TOUCH
+        {t("getInTouch")}
       </Link>
     ),
   },
-];
+  ];
 
-const Drawer = () => {
   return (
     <div>
       <div className="grid grid-cols-[auto_auto_auto] gap-x-4 md:flex md:gap-x-6 items-center">

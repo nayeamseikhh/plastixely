@@ -1,9 +1,10 @@
 import { Select } from "antd";
 import { useTranslation } from "react-i18next";
-import i18n from "../../service/i18n";
+import "../../service/i18n";
 
 const LanguageChange = () => {
   const { i18n } = useTranslation();
+  const currentLanguage = (i18n.resolvedLanguage || i18n.language || "en").split("-")[0];
 
   const languageChangeOptiion = [
     {
@@ -32,7 +33,7 @@ const LanguageChange = () => {
             alt="flag"
             className="w-10 h-7 object-cover rounded-xs"
           />
-          <span className="hidden md:block ">Frence</span>
+          <span className="hidden md:block ">French</span>
           <span className="  md:hidden ">FR</span>
         </div>
       ),
@@ -133,7 +134,11 @@ const LanguageChange = () => {
         <div className="rounded-xl shadow flex items-center gap-x-4 font-semibold">
           <div>
             <Select
-              defaultValue={languageChangeOptiion[0].value}
+              value={
+                languageChangeOptiion.find(
+                  (language) => language.language === currentLanguage,
+                )?.value || languageChangeOptiion[0].value
+              }
               style={{ width: 120 }}
               onChange={handleLanguageChange}
               options={languageChangeOptiion}

@@ -85,6 +85,19 @@
 /* another dropdown  */
 
 /* Custom Category dropdown css Start */
+
+.trustpilot-widget {
+  height: 52px !important;
+  max-height: 52px !important;
+  overflow: hidden !important;
+}
+
+.trustpilot-widget iframe {
+  height: 52px !important;
+  max-height: 52px !important;
+  overflow: hidden !important;
+  border: 0 !important;
+}
 /* Dropdown container */
 .custom-dropdown .ant-dropdown-menu {
   background-color: #374151 !important; /* gray-700 */

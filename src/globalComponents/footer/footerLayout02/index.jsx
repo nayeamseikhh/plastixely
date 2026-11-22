@@ -1,17 +1,25 @@
+
+import { useTranslation } from "react-i18next";
+
 const FooterLayout02 = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="md:flex md:flex-col text-center items-center text-white font-poppins font-semibold text-xl leading-7 ">
-      <p className="text-white font-poppins font-semibold ">
-        WELCOME TO OUR WORLD
+    <div className="flex flex-col items-center gap-4 text-center text-white font-poppins font-semibold text-lg leading-7 md:text-xl">
+      <p className="whitespace-normal text-white font-poppins font-semibold">
+        {t("welcomeToOurWorld")}
       </p>
-      <p className="text-white font-poppins font-semibold  my-4 md:my-6 lg:-ml-18 xl:ml-0">
-        GET IN TOUCH
+
+      <p className="whitespace-normal text-white font-poppins font-semibold">
+        {t("getInTouch")}
       </p>
-      <p className="text-white font-poppins font-semibold  ">
-        DELIVERY INFORMATION
+
+      <p className="whitespace-normal text-white font-poppins font-semibold">
+        {t("deliveryInformation")}
       </p>
-      <p className="text-white font-poppins font-semibold  my-4 md:my-6 lg:-ml-18 xl:ml-0">
-        WARRANTY
+
+      <p className="whitespace-normal text-white font-poppins font-semibold">
+        {t("warranty")}
       </p>
     </div>
   );

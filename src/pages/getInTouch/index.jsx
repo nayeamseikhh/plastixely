@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import GetInTouchBanner from "./getInTouchBanner";
 import RegisteredOffice from "./registeredOffice";
-import Form from "./form";
+// import Form from "./form";
 import ContactPhone from "./contactPhone";
-import bgImage from "../../assets/background/Background01.jpeg";
+// import bgImage from "../../assets/background/Background01.jpeg";
 
 const GetInTouch = () => {
   // useEffect(() => {

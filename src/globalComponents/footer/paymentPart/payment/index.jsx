@@ -3,13 +3,16 @@ import applePay from "../../../../assets/icon/apple-pay.png";
 import mastercard from "../../../../assets/icon/mastercard02.svg";
 import paypal from "../../../../assets/icon/paypal.png";
 import googlePay from "../../../../assets/icon/gpay02.png";
+import { useTranslation } from "react-i18next";
 
 const PaymentMethood = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div>
-        <div className="flex flex-col items-center text-white font-poppins font-semibold  text-xl">
-          <h6>SECURE PAYMENT OPTIONS</h6>
+        <div className="flex flex-col items-center text-white font-poppins font-semibold text-lg md:text-xl">
+          <h6 className="text-center whitespace-nowrap">{t("securePaymentOptions")}</h6>
           <div>
             <div className="flex items-center justify-center gap-8  mt-6  lg:mt-8">
               {/* <p>-Visa</p> */}{" "}

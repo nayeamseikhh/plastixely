@@ -1,7 +1,9 @@
 import ukFlag from "../../../../assets/svg/Flag/uk.svg";
-import { FaAngleDown } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const GBP = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div>
@@ -9,7 +11,7 @@ const GBP = () => {
           <div className="flex gap-x-3 items-center gap-3 h-10 px-2 cursor-pointer ">
             <img className="h-5 w-8 rounded-xs" src={ukFlag} alt="ukFlag" />
             <p className="text-black01 font-poppins text-[14px] ">
-              Pound Sterling (£) - GBP
+              {t("poundSterling")} (£) - GBP
             </p>
           </div>
         </div>

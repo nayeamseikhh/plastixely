@@ -1,40 +1,37 @@
-import React from "react";
 import Container from "../../../globalComponents/Container";
 import { FaTimes } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const powers = [
   {
-    title: "ENTERPRISE-GRADE SUPPLIES",
-    description:
-      "Equipping professionals with industry-leading hardware and industrial components.",
+    title: "enterpriseSuppliesTitle",
+    description: "enterpriseSuppliesDescription",
   },
   {
-    title: "STRATEGIC OEM SOURCING",
-    description:
-      "Sourcing genuine OEM parts directly from certified, top-tier industrial manufacturers.",
+    title: "strategicOemTitle",
+    description: "strategicOemDescription",
   },
   {
-    title: "AFTERMARKET PARTS & ACCESSORIES",
-    description:
-      "Procuring premium aftermarket parts and high-caliber industrial accessories.",
+    title: "aftermarketPartsTitle",
+    description: "aftermarketPartsDescription",
   },
   {
-    title: "TECHNICAL DRAFTING EXPERTISE",
-    description: "High-precision CAD drafting and technical documentation.",
+    title: "technicalDraftingTitle",
+    description: "technicalDraftingDescription",
   },
   {
-    title: "NEXT-GENERATION MODELLING",
-    description:
-      "Equipping professionals with industry-leading hardware and industrial components.",
+    title: "nextGenerationModellingTitle",
+    description: "nextGenerationModellingDescription",
   },
   {
-    title: "EXPERT SOLUTIONS BASED ON REQUEST",
-    description:
-      "Based on our expertise, we adapt our capabilities to your workflow, providing custom configurations and technical help exactly when you request it.",
+    title: "expertSolutionsTitle",
+    description: "expertSolutionsDescription",
   },
 ];
 
 const OurSuperPowers = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="bg-black">
@@ -66,7 +63,7 @@ const OurSuperPowers = () => {
           <section className=" text-white py-10">
             <div className="max-w-8xl mx-auto ">
               <h2 className="text-3xl md:text-6xl font-bold text-center mb-12 font-poppins">
-                OUR SUPERPOWERS
+                {t("superpowersHeading")}
               </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
@@ -81,11 +78,11 @@ const OurSuperPowers = () => {
                       <FaTimes className="text-orange-600 text-7xl md:text-8xl mb-6" />
 
                       <h3 className="font-bold text-lg md:text-xl uppercase mb-5 font-poppins">
-                        {item.title}
+                        {t(item.title)}
                       </h3>
 
                       <p className="text-gray-200 italic text-sm md:text-lg leading-relaxed font-poppins">
-                        {item.description}
+                        {t(item.description)}
                       </p>
                     </div>
                   </div>

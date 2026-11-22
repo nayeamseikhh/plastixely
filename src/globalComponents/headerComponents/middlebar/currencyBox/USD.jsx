@@ -1,7 +1,9 @@
 import usaFlag from "../../../../assets/svg/Flag/usa.png";
-import { FaAngleDown } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const USD = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div>
@@ -9,7 +11,7 @@ const USD = () => {
           <div className="flex gap-x-3 items-center gap-3 h-10 px-2 cursor-pointer ">
             <img className="h-5 w-8 rounded-xs" src={usaFlag} alt="usaFlag" />
             <p className="text-black01 font-poppins text-[14px] ">
-              United Stares Doller ($) - USD
+              {t("usDollar")} ($) - USD
             </p>
           </div>
         </div>

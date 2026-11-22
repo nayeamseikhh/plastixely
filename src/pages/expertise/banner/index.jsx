@@ -41,7 +41,6 @@
 
 // export default ExpertiseBanner;
 
-import React from "react";
 import expertise_banner from "../../../assets/images/expertise_banner.jpeg";
 import { useTranslation } from "react-i18next";
 // import { MdKeyboardDoubleArrowRight } from "react-icons/md";
@@ -65,7 +64,7 @@ const ExpertiseBanner = () => {
       <div className="relative z-10 flex h-full items-center justify-center px-4 text-center">
         <div>
           <h1 className="font-poppins text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl">
-            OUR EXPERTISE
+            {t("expertisePageTitle")}
           </h1>
 
           {/* Breadcrumb (Optional) */}

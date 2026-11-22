@@ -1,6 +1,9 @@
-import React from "react";
 import banner_images from "../../../assets/images/banner01.jpg";
+import { useTranslation } from "react-i18next";
+
 const Banner = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="relative h-210 w-full overflow-hidden bg-black">
@@ -13,13 +16,10 @@ const Banner = () => {
 
         <div className="relative z-10 flex h-full flex-col  mt-5 text-center text-white px-4">
           <h1 className="text-4xl font-bold md:text-6xl font-poppins ">
-            Premium Auto Parts And Power Tools Worldwide
+            {t("homeTitle")}
           </h1>
           <p className="mt-4 text-lg md:text-xl ">
-            Discover high-quality automotive parts, motorcycle accessories, and
-            powerful <br /> tools designed for performance, durability, and
-            reliability, delivered worldwide <br /> at competitive prices with
-            fast and secure shipping.
+            {t("homeDescription")}
           </p>
         </div>
       </div>

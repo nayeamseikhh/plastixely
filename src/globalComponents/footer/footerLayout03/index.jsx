@@ -1,15 +1,25 @@
+
+import { useTranslation } from "react-i18next";
+
 const FooterLayout03 = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="flex flex-col items-center text-white font-poppins font-semibold text-xl leading-7 my-4 md:my-0">
-      <p className="text-white font-poppins font-semibold ">PRIVACY POLICY</p>
-      <p className="text-white font-poppins font-semibold mt-4 md:mt-6 lg:ml-12 xl:ml-0">
-        TERMS & CONDITIONS
+    <div className="flex flex-col items-center gap-4 text-center text-white font-poppins font-semibold text-lg leading-7 md:text-xl">
+      <p className="whitespace-normal text-white font-poppins font-semibold">
+        {t("privacyPolicy")}
       </p>
-      <p className="text-white font-poppins font-semibold my-4 md:my-6 lg:ml-12 xl:ml-0">
-        RETURNS POLICY
+
+      <p className="whitespace-normal text-white font-poppins font-semibold">
+        {t("termsAndConditions")}
       </p>
-      <p className="text-white font-poppins font-semibold lg:-ml-18 xl:ml-0">
-        CANCELLATION POLICY
+
+      <p className="whitespace-normal text-white font-poppins font-semibold">
+        {t("returnsPolicy")}
+      </p>
+
+      <p className="whitespace-normal text-white font-poppins font-semibold">
+        {t("cancellationPolicy")}
       </p>
     </div>
   );

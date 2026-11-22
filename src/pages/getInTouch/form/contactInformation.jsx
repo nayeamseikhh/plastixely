@@ -1,19 +1,21 @@
-// import React from "react";
+import { useTranslation } from "react-i18next";
 
 const ContactInformation = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div>
         <h4 className="text-[25px] font-semibold font-poppins">
-          CONTACT US TODAY
+          {t("contactToday")}
         </h4>
 
         <div className="my-5">
-          <h6 className="font-semibold text-[20px]">SALES TEAM :</h6>
+          <h6 className="font-semibold text-[20px]">{t("salesTeam")}:</h6>
         </div>
 
         <div>
-          <h6 className="font-semibold text-[20px]">OUR HOMEPAGE URL :</h6>
+          <h6 className="font-semibold text-[20px]">{t("homepageUrl")}:</h6>
           <a
             className="text-blue-700 font-semibold"
             href="https://www.plastixely.com/"
@@ -23,7 +25,7 @@ const ContactInformation = () => {
         </div>
 
         <div className="my-5">
-          <h6 className="font-semibold text-[20px]">EMAIL US :</h6>
+          <h6 className="font-semibold text-[20px]">{t("emailUs")}:</h6>
           <a
             className="text-blue-700 font-semibold"
             href="mailto:Info@plastixely.com"
@@ -33,7 +35,7 @@ const ContactInformation = () => {
         </div>
 
        <div>
-          <h6 className="font-semibold text-[20px]">WHATSAPP :</h6>
+          <h6 className="font-semibold text-[20px]">{t("whatsApp")}:</h6>
 
           <a
             href="https://wa.me/447741003192"

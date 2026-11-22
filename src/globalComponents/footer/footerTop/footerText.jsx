@@ -1,85 +1,85 @@
-// import React from "react";
+import { useTranslation } from "react-i18next";
 
 const FooterText = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* For Desktop */}
-      <div className=" text-white leading-8 hidden md:block w-full ">
-        <p className="text-center  text-xl  font-open-sans">
+      <div className="text-white leading-8 hidden md:block w-full">
+        <p className="text-center text-xl font-open-sans">
           <i>
-            © 2026 FD PLASTIX, TOOLZ & SPAREZ LTD, CRN: 17190057, EORI NUMBER:
-            GB048164708000 <br />
-            Registered Office Address: The Storage Team of A.R.T. Centre, Tan
-            House Lane, Widnes, WA8 0RR, UNITED KINGDOM
+            {t("copyrightNotice")}
+            <br />
+            {t("registeredOfficeAddress")}
           </i>
         </p>
+
         <p className="text-center text-lg mt-8 font-open-sans">
           <i>
-            {" "}
-            FD PLASTIX, TOOLZ & SPAREZ LTD is an independent specialist reseller
-            of genuine vehicle parts and power tool components. <br /> We are
-            not an authorised dealer, partner, or affiliate of any vehicle or
-            tool manufacturer. <br /> All brand names, logos, trademarks, and
-            model designations are the property of their respective owners and{" "}
+            {t("companyDescription")}
             <br />
-            are used purely for compatibility and product identification
-            purposes.
+            {t("manufacturerDisclaimer")}
+            <br />
+            {t("trademarkDisclaimer")}
           </i>
         </p>
+
         <p className="text-center text-sm font-open-sans mt-8">
           <i>
-            © FD PLASTIX, TOOLZ & SPAREZ LTD 2026 | All rights reserved <br />
-            FD PLASTIX, TOOLZ & SPAREZ LTD T/A FD PTnS Company Number: 17190057
+            {t("allRightsReserved")}
+            <br />
+            {t("companyRegistration")}
           </i>
         </p>
+
         <br />
-        <p className="text-center  text-lg font-open-sans">
+
+        <p className="text-center text-lg font-open-sans">
           <i>
-            <u className="text-2xl font-bold">Website by FD* & NS</u>
+            <u className="text-2xl font-bold">{t("websiteBy")}</u>
             <br />
             <u className="font-semibold text-lg">
-              *All images, graphics, and visual content are designed <br /> and
-              created by FD and are protected by copyright.
+              {t("imageCopyrightNotice")}
             </u>
           </i>
         </p>
       </div>
 
-      {/* For Mobile  */}
-      <div className=" text-white leading-8 md:hidden">
-        <p className="text-center   text-xl font-open-sans">
+      {/* For Mobile */}
+      <div className="text-white leading-8 md:hidden">
+        <p className="text-center text-xl font-open-sans">
           <i>
-            © 2026 FD PLASTIX, TOOLZ & SPAREZ LTD, CRN: 17190057, EORI NUMBER:
-            GB048164708000 <br />
-            Registered Office Address: The Storage Team of A.R.T. Centre, Tan
-            House Lane, Widnes, WA8 0RR, UNITED KINGDOM
+            {t("copyrightNotice")}
+            <br />
+            {t("registeredOfficeAddress")}
           </i>
         </p>
 
-        <p className="text-center  text-xl my-8 font-open-sans">
+        <p className="text-center text-xl my-8 font-open-sans">
           <i>
-            FD PLASTIX, TOOLZ & SPAREZ LTD is an independent specialist reseller
-            of genuine vehicle parts and power tool components. <br /> We are
-            not an authorised dealer, partner, or affiliate of any vehicle or
-            tool manufacturer. <br /> All brand names, logos, trademarks, and
-            model designations are the property of their respective owners and
-            are used purely for compatibility and product identification
-            purposes.
+            {t("companyDescription")}
+            <br />
+            {t("manufacturerDisclaimer")}
+            <br />
+            {t("trademarkDisclaimer")}
           </i>
         </p>
 
         <p className="text-center text-xl font-open-sans">
           <i>
-            © FD PLASTIX, TOOLZ & SPAREZ LTD 2026 | All rights reserved FD
-            PLASTIX, TOOLZ & SPAREZ LTD T/A FD PTnS Company Number: 17190057
+            {t("allRightsReserved")}
+            <br />
+            {t("companyRegistration")}
           </i>
         </p>
-        <p className="text-center  text-lg  font-open-sans">
+
+        <p className="text-center text-lg font-open-sans">
           <i>
-            <u>Website by FD* & NS</u>
+            <u>{t("websiteBy")}</u>
             <br />
             <u className="font-semibold text-xl">
-              *All images, graphics, and visual content are designed <br /> and created by FD and are protected by copyright.
+              {t("imageCopyrightNotice")}
             </u>
           </i>
         </p>

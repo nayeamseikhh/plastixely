@@ -22,7 +22,7 @@ const Footer = () => {
             <FooterTop />
           </div>
           <div className="border-t border-gray-600 mt-6  md:mt-0"></div>
-          <div className="md:grid md:grid-cols-4 gap-10 pt-4 md:pt-10">
+          <div className="grid grid-cols-1 items-start gap-8 pt-4 md:grid-cols-4 md:gap-6 md:pt-10">
             <FooterLayout01 />
             <FooterLayout02 />
             <FooterLayout03 />

@@ -1,0 +1,173 @@
+
+{
+  "_comment_Page": "Entre em contato",
+
+  
+  "start": "INÍCIO",
+  "howCanWeHelpYou": "COMO PODEMOS AJUDAR?",
+  "getInTouchWithUs": "FALE CONOSCO!",
+  "registeredOfficeAdddress": "ENDEREÇO DA SEDE REGISTRADA:",
+  "fdPlastixToolz&sparezLTD": "FD PLASTIX, TOOLZ & SPAREZ LTD",
+  "theStorageTeamOfARTCenter": "A EQUIPE DE ARMAZENAMENTO DO A.R.T. CENTRE",
+  "tanHouseLane": "TAN HOUSE LANE",
+  "widnes": "WIDNES",
+  "wa80RR": "WA8 0RR",
+  "unitedKingdom": "REINO UNIDO",
+  "ourHomePageURL": "URL da nossa página inicial:",
+
+  "customarServicePhoneLine": "Linha telefônica de atendimento ao cliente",
+  "operatingDays": "Dias de funcionamento",
+  "businessHours": {
+    "mondayFriday": "Segunda a sexta-feira",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "bankHoliday": "Feriados bancários / públicos",
+    "closed": "Fechado"
+  },
+
+  "getInTouchThroughTheseChannels": "ENTRE EM CONTATO POR ESTES CANAIS:",
+  "emailOurTram": "Envie um e-mail para nossa equipe:",
+  "ourTeamRespondsToAllInuquiriesWithinOneBusinessDay": "(Nossa equipe responde a todas as solicitações em até um dia útil.)",
+  "connectWithOurTeamViaPhone": "Entre em contato com nossa equipe por telefone:",
+  "toReachOurSalesDepartmentForGeneralOrCommercialInquiries": "Para entrar em contato com nosso departamento de vendas sobre consultas gerais ou comerciais, ligue para nossa linha de atendimento dedicada:",
+  "plzFindBelow..operationHours": "Confira abaixo nossos horários oficiais de atendimento ao cliente e suporte técnico:",
+
+  "messageOurTeamViaWhatsapp": "Envie uma mensagem para nossa equipe pelo WhatsApp:",
+  "contactUsByPost": "Entre em contato conosco por correspondência:",
+  "ifYouWishtoWrieToUsMailingAddressIs": "Se desejar nos escrever, nosso endereço para correspondência é:",
+
+
+
+
+
+
+  "_comment_Footer": "Rodapé do site",
+
+  "newsletterTitle": "Dê mais força à sua caixa de entrada",
+  "newsletterDescription": "Seja um dos primeiros a receber descontos exclusivos, novidades em ferramentas premium e atualizações de stock.",
+  "emailPlaceholder": "E-mail",
+  "signUp": "Inscrever-se",
+
+  "welcomeToOurWorld": "BEM-VINDO AO NOSSO MUNDO",
+  "getInTouch": "ENTRE EM CONTATO",
+  "deliveryInformation": "INFORMAÇÕES DE ENTREGA",
+  "warranty": "GARANTIA",
+
+  "privacyPolicy": "POLÍTICA DE PRIVACIDADE",
+  "termsAndConditions": "TERMOS E CONDIÇÕES",
+  "returnsPolicy": "POLÍTICA DE DEVOLUÇÕES",
+  "cancellationPolicy": "POLÍTICA DE CANCELAMENTO",
+
+  "globalShippingAvailable": "ENVIO PARA TODO O MUNDO DISPONÍVEL",
+  "securePaymentOptions": "OPÇÕES DE PAGAMENTO SEGURAS",
+
+  "copyrightNotice": "© 2026 FD PLASTIX, TOOLZ & SPAREZ LTD, CRN: 17190057, NÚMERO EORI: GB048164708000",
+  "registeredOfficeAddress": "Endereço da sede social: The Storage Team of A.R.T. Centre, Tan House Lane, Widnes, WA8 0RR, REINO UNIDO",
+
+  "companyDescription": "A FD PLASTIX, TOOLZ & SPAREZ LTD é um revendedor especializado independente de peças genuínas para veículos e componentes para ferramentas elétricas.",
+  "manufacturerDisclaimer": "Não somos um concessionário autorizado, parceiro ou afiliado de qualquer fabricante de veículos ou ferramentas.",
+  "trademarkDisclaimer": "Todos os nomes de marcas, logótipos, marcas registadas e designações de modelos são propriedade dos respetivos titulares e são utilizados exclusivamente para fins de compatibilidade e identificação de produtos.",
+
+  "allRightsReserved": "© FD PLASTIX, TOOLZ & SPAREZ LTD 2026 | Todos os direitos reservados",
+  "companyRegistration": "FD PLASTIX, TOOLZ & SPAREZ LTD, que opera sob o nome FD PTNs, número de empresa: 17190057",
+
+  "websiteBy": "Site desenvolvido por FD* & NS",
+  "imageCopyrightNotice": "*Todas as imagens, gráficos e conteúdos visuais são concebidos e criados pela FD e estão protegidos por direitos de autor.",
+
+  "brandTagline": "A nossa diferença é a nossa singularidade",
+
+  "languageEnglish": "Português",
+
+  "daysLabel": "dias",
+  "hoursLabel": "horas",
+  "minutesLabel": "minutos",
+  "secondsLabel": "segundos",
+  "searchProducts": "Pesquisar produtos...",
+  "help": "AJUDA",
+  "checkout": "PAGAMENTO",
+  "expertisePageTitle": "A NOSSA EXPERIÊNCIA",
+  "consultingServices": "SERVIÇOS DE CONSULTORIA",
+  "results": "RESULTADOS",
+  "category": "CATEGORIA",
+  "automobile": "AUTOMÓVEIS",
+  "motorcycle": "MOTOCICLETAS",
+  "powerTools": "FERRAMENTAS ELÉTRICAS",
+  "landscapingTools": "FERRAMENTAS DE JARDINAGEM",
+  "poundSterling": "Libra esterlina",
+  "euroCurrency": "Euro",
+  "usDollar": "Dólar americano",
+  "facebookPage": "Página do Facebook",
+  "instagramPage": "Página do Instagram",
+  "linkedinPage": "Página empresarial do LinkedIn",
+  "chatWhatsApp": "Fale connosco pelo WhatsApp",
+
+  "homeTitle": "Peças automóveis e ferramentas elétricas de qualidade em todo o mundo",
+  "homeDescription": "Descubra peças automóveis de alta qualidade, acessórios para motociclos e ferramentas potentes, concebidas para oferecer desempenho, durabilidade e fiabilidade. Envio mundial rápido e seguro a preços competitivos.",
+  "whyPartnerHeading": "PORQUÊ ESCOLHER-NOS COMO PARCEIRO?",
+  "whyPartnerDescription": "O seu parceiro de confiança para equipamentos industriais de excelência e componentes genuínos. Aliamos um vasto catálogo de produtos a serviços de engenharia de classe mundial — incluindo desenho profissional em CAD e modelação BIM avançada — para otimizar o seu trabalho, do conceito à conclusão.",
+  "superpowersHeading": "OS NOSSOS PONTOS FORTES",
+  "enterpriseSuppliesTitle": "FORNECIMENTOS DE NÍVEL EMPRESARIAL",
+  "enterpriseSuppliesDescription": "Equipamos profissionais com hardware e componentes industriais líderes do setor.",
+  "strategicOemTitle": "FORNECIMENTO ESTRATÉGICO OEM",
+  "strategicOemDescription": "Obtemos peças OEM genuínas diretamente de fabricantes industriais certificados e de topo.",
+  "aftermarketPartsTitle": "PEÇAS E ACESSÓRIOS DE SUBSTITUIÇÃO",
+  "aftermarketPartsDescription": "Fornecemos peças de substituição premium e acessórios industriais de elevada qualidade.",
+  "technicalDraftingTitle": "EXPERTISE EM DESENHO TÉCNICO",
+  "technicalDraftingDescription": "Desenho CAD de alta precisão e documentação técnica.",
+  "nextGenerationModellingTitle": "MODELAÇÃO DE NOVA GERAÇÃO",
+  "nextGenerationModellingDescription": "Equipamos profissionais com hardware e componentes industriais líderes do setor.",
+  "expertSolutionsTitle": "SOLUÇÕES ESPECIALIZADAS SOB PEDIDO",
+  "expertSolutionsDescription": "Com base na nossa experiência, adaptamos as nossas capacidades ao seu fluxo de trabalho e fornecemos configurações personalizadas e apoio técnico sempre que solicitado.",
+  "workPromiseHeading": "A NOSSA FORMA DE TRABALHAR / O NOSSO COMPROMISSO",
+  "premiumProductSourcingTitle": "SELEÇÃO DE PRODUTOS PREMIUM",
+  "premiumProductSourcingDescription": "Selecionamos produtos superiores de parceiros de confiança, dando prioridade à durabilidade e à fiabilidade sem compromissos.",
+  "qualityControlTitle": "NORMAS DE CONTROLO DE QUALIDADE",
+  "qualityControlDescription": "Submetemos todos os produtos a avaliações rigorosas para garantir durabilidade máxima, desempenho superior e total satisfação.",
+  "securePackagingTitle": "EMBALAGEM SEGURA",
+  "securePackagingDescription": "Aplicamos normas rigorosas de embalagem para proteger os produtos e garantir uma entrega sem danos.",
+  "timelyDeliveryTitle": "ENTREGA PONTUAL E SEGURANÇA GARANTIDA",
+  "timelyDeliveryDescription": "Garantimos uma distribuição rápida, fiável e segura para que os seus produtos cheguem sempre dentro do prazo.",
+
+  "welcomeIntroHeading": "BEM-VINDO AO NOSSO MUNDO: SOLUÇÕES INDUSTRIAIS E DE ENGENHARIA INTEGRADAS",
+  "welcomeIntroDescription": "Bem-vindo a um destino global de referência onde o comércio industrial se encontra com a engenharia digital avançada. Promovemos o progresso industrial internacional através de um modelo de dupla capacidade: somos um fornecedor global de confiança de peças mecânicas e hardware e disponibilizamos consultoria especializada em CAD e BIM.",
+  "welcomeMissionDescription": "A nossa missão é eliminar os obstáculos entre a aquisição física e o design digital. Ao disponibilizar ferramentas de nível empresarial e modelação virtual de alta fidelidade, ajudamos as indústrias globais a alcançar a integridade estrutural e mecânica necessária para liderarem nos seus mercados. Explore a nossa rede global e conheça uma parceria concebida para a excelência.",
+  "blueprintHeading": "O PLANO",
+  "missionHeading": "A NOSSA MISSÃO",
+  "missionDescription": "Capacitar as indústrias globais através de componentes mecânicos, hardware e consultoria de engenharia de alta qualidade, garantindo excelência operacional e uma transformação digital fluida com CAD e modelação BIM avançados.",
+  "visionHeading": "A NOSSA VISÃO",
+  "visionDescription": "Ser uma empresa líder mundial que liga de forma integrada os fornecimentos industriais físicos à experiência em engenharia virtual, promovendo o avanço global sustentável.",
+
+  "loginHeading": "Bem-vindo de volta",
+  "loginSubtitle": "Inicie sessão para continuar",
+  "passwordPlaceholder": "Palavra-passe",
+  "rememberMe": "Lembrar-me",
+  "forgotPassword": "Esqueceu-se da palavra-passe?",
+  "logIn": "Iniciar sessão",
+  "or": "OU",
+  "continueWithGoogle": "Continuar com o Google",
+  "noAccount": "Ainda não tem uma conta?",
+  "createAccount": "Criar conta",
+  "phonePlaceholder": "Número de telefone",
+  "confirmPassword": "Introduza novamente a palavra-passe",
+  "accept": "Aceito",
+  "legalAgreements": "os termos legais",
+  "alreadyHaveAccount": "Já tem uma conta?",
+
+  "contactToday": "CONTACTE-NOS HOJE",
+  "salesTeam": "EQUIPA DE VENDAS",
+  "homepageUrl": "URL DA NOSSA PÁGINA INICIAL",
+  "emailUs": "ENVIE-NOS UM E-MAIL",
+  "whatsApp": "WHATSAPP",
+  "contactFormIntro": "Não hesite em contactar-nos sobre qualquer assunto, por mais pequeno que seja. Responderemos o mais rapidamente possível!",
+  "fullName": "Nome completo",
+  "companyName": "Nome da empresa",
+  "emailAddress": "Endereço de e-mail",
+  "phoneNumber": "Número de telefone",
+  "subject": "Assunto",
+  "message": "Mensagem",
+  "mandatoryField": "Campo obrigatório",
+  "privacyConsent": "Consinto que os meus dados sejam enviados de acordo com a seguinte política de privacidade",
+  "send": "ENVIAR",
+  "recaptchaPrompt": "Confirme que não é um robô."
+
+}

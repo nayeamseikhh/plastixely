@@ -48,17 +48,19 @@
 
 // export default TheBluePrint;
 
-import React from "react";
 import theBlueprint from "../../../assets/images/theBlueprint.jpeg";
 import Container from "../../../globalComponents/Container";
+import { useTranslation } from "react-i18next";
 
 const TheBluePrint = () => {
+  const { t } = useTranslation();
+
   return (
     <Container>
       <section className="py-10 lg:py-16">
         {/* Heading */}
         <h2 className="mb-8 text-center font-poppins text-3xl font-bold sm:text-4xl lg:mb-14 lg:text-6xl">
-          THE BLUEPRINT
+          {t("blueprintHeading")}
         </h2>
 
         {/* Content */}
@@ -77,27 +79,22 @@ const TheBluePrint = () => {
             {/* Mission */}
             <div>
               <h3 className="mb-4 text-center font-poppins text-2xl font-semibold sm:text-3xl lg:text-4xl">
-                OUR MISSION
+                {t("missionHeading")}
               </h3>
 
               <p className="text-center font-poppins text-base leading-8 text-gray-700 sm:text-lg lg:text-2xl lg:leading-10">
-                To empower global industries by delivering high-quality
-                mechanical components, hardware, and engineering consulting,
-                ensuring operational excellence and seamless digital
-                transformation through advanced CAD and BIM modelling.
+                {t("missionDescription")}
               </p>
             </div>
 
             {/* Vision */}
             <div>
               <h3 className="mb-4 text-center font-poppins text-2xl font-semibold sm:text-3xl lg:text-4xl">
-                OUR VISION
+                {t("visionHeading")}
               </h3>
 
               <p className="text-center font-poppins text-base leading-8 text-gray-700 sm:text-lg lg:text-2xl lg:leading-10">
-                To be a world-leading enterprise that seamlessly bridges
-                physical industrial supplies with virtual engineering expertise,
-                driving sustainable global advancement.
+                {t("visionDescription")}
               </p>
             </div>
           </div>

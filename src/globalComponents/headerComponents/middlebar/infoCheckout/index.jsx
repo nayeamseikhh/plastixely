@@ -1,24 +1,28 @@
-import React from "react";
 import { CgProfile } from "react-icons/cg";
 import { MdHelp } from "react-icons/md";
 import { RiShoppingCartFill } from "react-icons/ri";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
 const InfoCheckout = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div>
         <div className="flex justify-between gap-x-2 md:gap-x-0">
           <div className="text-center cursor-pointer">
             <MdHelp className="mx-auto md:text-2xl" />
-            <p className="text-[8px] md:text-[14px] mt-1 font-poppins">HELP</p>
+            <p className="text-[8px] md:text-[14px] mt-1 font-poppins">
+              {t("help")}
+            </p>
           </div>
 
           <div className="text-center cursor-pointer">
             <Link to="/registration">
               <CgProfile className="mx-auto md:text-2xl" />
               <p className="text-[8px] md:text-[14px] mt-1 font-poppins">
-                SIGNUP
+                {t("signUp")}
               </p>
             </Link>
           </div>
@@ -33,7 +37,7 @@ const InfoCheckout = () => {
               </div>
             </div>
             <p className="text-[8px] md:text-[14px] mt-1 font-poppins">
-              CHECKOUT
+              {t("checkout")}
             </p>
           </div>
         </div>

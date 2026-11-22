@@ -1,8 +1,10 @@
-import React from "react";
-import { DownOutlined, SmileOutlined } from "@ant-design/icons";
+import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
+import { useTranslation } from "react-i18next";
 
-const items = [
+const Category = () => {
+  const { t } = useTranslation();
+  const items = [
   {
     key: "1",
     label: (
@@ -12,7 +14,7 @@ const items = [
         href=""
         className="text-white01"
       >
-        AUTOMOBILE
+        {t("automobile")}
       </a>
     ),
   },
@@ -20,7 +22,7 @@ const items = [
     key: "2",
     label: (
       <a target="_blank" rel="noopener noreferrer" href="">
-        MOTORCYCLE
+        {t("motorcycle")}
       </a>
     ),
   },
@@ -28,7 +30,7 @@ const items = [
     key: "3",
     label: (
       <a target="_blank" rel="noopener noreferrer" href="">
-        POWER TOOLS
+        {t("powerTools")}
       </a>
     ),
   },
@@ -36,19 +38,19 @@ const items = [
     key: "4",
     label: (
       <a target="_blank" rel="noopener noreferrer" href="">
-        LANDSCAPING TOOLS
+        {t("landscapingTools")}
       </a>
     ),
   },
-];
-const Category = () => {
+  ];
+
   return (
     <>
       <div>
         <Dropdown menu={{ items }} overlayClassName="custom-dropdown">
           <a onClick={(e) => e.preventDefault()}>
-            <Space>
-              CATEGORY
+            <Space className="whitespace-nowrap">
+              {t("category")}
               <DownOutlined />
             </Space>
           </a>

@@ -1,14 +1,21 @@
 import { FaEyeSlash, FaEnvelope, FaCheckCircle } from "react-icons/fa";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
 const Login = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="min-h-screen bg-slate-200 flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-white rounded-[35px] border-[6px] border-slate-300 shadow-xl px-8 py-12">
         {/* Title */}
-        <h2 className="text-3xl font-bold text-center mb-3">Welcome Back</h2>
+        <h2 className="text-3xl font-bold text-center mb-3">
+          {t("loginHeading")}
+        </h2>
 
-        <p className="text-center text-gray-500 mb-10">Sign in to continue</p>
+        <p className="text-center text-gray-500 mb-10">
+          {t("loginSubtitle")}
+        </p>
 
         {/* Form */}
         <form className="space-y-5">
@@ -18,7 +25,7 @@ const Login = () => {
 
             <input
               type="email"
-              placeholder="nixtio@gmail.com"
+              placeholder={t("emailPlaceholder")}
               className="w-full h-12 rounded-full border border-gray-300 pl-12 pr-5 outline-none focus:border-yellow-400"
             />
           </div>
@@ -27,7 +34,7 @@ const Login = () => {
           <div className="relative">
             <input
               type="password"
-              placeholder="********"
+              placeholder={t("passwordPlaceholder")}
               className="w-full h-12 rounded-full border border-gray-300 px-5 pr-12 outline-none focus:border-yellow-400"
             />
 
@@ -41,26 +48,26 @@ const Login = () => {
 
               <FaCheckCircle className="text-black text-lg" />
 
-              <span>Remember Me</span>
+              <span>{t("rememberMe")}</span>
             </label>
 
             <a
               href="/forgot-password"
               className="text-blue-600 hover:underline"
             >
-              Forgot Password?
+              {t("forgotPassword")}
             </a>
           </div>
 
           {/* Login Button */}
           <button className="w-full h-12 rounded-full bg-yellow-300 hover:bg-yellow-400 font-semibold transition duration-300">
-            Log In
+            {t("logIn")}
           </button>
 
           {/* Divider */}
           <div className="flex items-center gap-3">
             <div className="flex-1 h-px bg-gray-300"></div>
-            <span className="text-gray-400 text-sm">OR</span>
+            <span className="text-gray-400 text-sm">{t("or")}</span>
             <div className="flex-1 h-px bg-gray-300"></div>
           </div>
 
@@ -69,19 +76,19 @@ const Login = () => {
             type="button"
             className="w-full h-12 rounded-full border border-gray-300 hover:bg-gray-100 font-medium transition"
           >
-            Continue with Google
+            {t("continueWithGoogle")}
           </button>
         </form>
 
         {/* Bottom */}
         <p className="text-center text-sm text-gray-500 mt-24">
-          Don't have an account?
+          {t("noAccount")}{" "}
           <Link to="/registration">
             <a
               href="/signup"
               className="text-blue-600 font-medium hover:underline"
             >
-              Sign Up
+              {t("signUp")}
             </a>
           </Link>
         </p>

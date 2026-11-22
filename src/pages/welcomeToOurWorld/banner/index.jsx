@@ -31,7 +31,6 @@
 
 // export default WelcomeToOurWorldBanner;
 
-import React from "react";
 import { useTranslation } from "react-i18next";
 import welcomeBanner from "../../../assets/images/WelcomeBanner.jpeg";
 
@@ -53,7 +52,7 @@ const WelcomeToOurWorldBanner = () => {
       {/* Content */}
       <div className="relative z-10 flex h-full items-center justify-center px-4 text-center">
         <h1 className="font-poppins text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl">
-          WELCOME TO OUR WORLD
+          {t("welcomeToOurWorld")}
         </h1>
       </div>
     </section>

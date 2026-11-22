@@ -1,7 +1,8 @@
-import React from "react";
-import { FaSearch } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const SearchBox = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div>
@@ -10,7 +11,7 @@ const SearchBox = () => {
             type="text"
             name=""
             id=""
-            placeholder="Search For products..."
+            placeholder={t("searchProducts")}
             className="flex gap-x-5 h-10 w-full bg-white01 rounded-2xl items-center pl-5 text-black"
           />
           {/* <div className="flex gap-x-5 h-10 w-full bg-white01 rounded-2xl items-center pl-5">

@@ -1,20 +1,25 @@
 import { FaEyeSlash } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
 const SignUp = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="min-h-screen bg-slate-200 flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-white rounded-[35px] border-[6px] border-slate-300 shadow-xl px-8 py-12">
         {/* Title */}
-        <h2 className="text-3xl font-bold text-center mb-10">Create Account</h2>
+        <h2 className="text-3xl font-bold text-center mb-10">
+          {t("createAccount")}
+        </h2>
 
         {/* Form */}
         <form className="space-y-5">
           {/* Email */}
           <input
             type="email"
-            placeholder="nixtio@gmail.com"
+            placeholder={t("emailPlaceholder")}
             className="w-full h-12 rounded-full border border-gray-300 px-5 outline-none focus:border-yellow-400"
           />
 
@@ -27,7 +32,7 @@ const SignUp = () => {
 
             <input
               type="text"
-              placeholder="(201) 555-0123"
+              placeholder={t("phonePlaceholder")}
               className="flex-1 pl-4 outline-none"
             />
           </div>
@@ -36,7 +41,7 @@ const SignUp = () => {
           <div className="relative">
             <input
               type="password"
-              placeholder="********"
+              placeholder={t("passwordPlaceholder")}
               className="w-full h-12 rounded-full border border-gray-300 px-5 pr-12 outline-none focus:border-yellow-400"
             />
 
@@ -47,7 +52,7 @@ const SignUp = () => {
           <div className="relative">
             <input
               type="password"
-              placeholder="Re-password"
+              placeholder={t("confirmPassword")}
               className="w-full h-12 rounded-full border border-gray-300 px-5 pr-12 outline-none focus:border-yellow-400"
             />
 
@@ -61,28 +66,28 @@ const SignUp = () => {
             <FaCheckCircle className="text-black text-lg" />
 
             <span>
-              Accept{" "}
+              {t("accept")}{" "}
               <a href="/" className="text-blue-600 hover:underline">
-                Legal Agreements
+                {t("legalAgreements")}
               </a>
             </span>
           </label>
 
           {/* Button */}
           <button className="w-full h-12 rounded-full bg-yellow-300 hover:bg-yellow-400 font-semibold transition duration-300">
-            Sign Up
+            {t("signUp")}
           </button>
         </form>
 
         {/* Bottom */}
         <p className="text-center text-sm text-gray-500 mt-28">
-          Already Have an Account?{" "}
+          {t("alreadyHaveAccount")}{" "}
           <Link
             to="/login"
             href="/login"
             className="text-blue-600 font-medium hover:underline"
           >
-            Log In
+            {t("logIn")}
           </Link>
         </p>
       </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../../../globalComponents/Container";
 import OperatingHours from "../operatingHours";
 import { useTranslation } from "react-i18next";

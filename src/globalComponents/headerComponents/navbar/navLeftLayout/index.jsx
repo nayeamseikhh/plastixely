@@ -1,8 +1,20 @@
-import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const NavLeftLayout = () => {
+  const { i18n } = useTranslation();
+  const localeMap = {
+    en: "en-GB",
+    fr: "fr-FR",
+    de: "de-DE",
+    el: "el-GR",
+    es: "es-ES",
+    tr: "tr-TR",
+    pt: "pt-PT",
+  };
+  const language = (i18n.resolvedLanguage || i18n.language || "en").split("-")[0];
+  const locale = localeMap[language] || "en-GB";
   const date = new Date()
-    .toLocaleDateString("en-GB", {
+    .toLocaleDateString(locale, {
       timeZone: "Europe/London",
       day: "numeric",
       month: "short",
@@ -10,7 +22,7 @@ const NavLeftLayout = () => {
     })
     .toUpperCase();
   const time = new Date()
-    .toLocaleTimeString("en-GB", {
+    .toLocaleTimeString(locale, {
       timeZone: "Europe/London",
       hour: "2-digit",
       minute: "2-digit",
@@ -19,7 +31,7 @@ const NavLeftLayout = () => {
     .toUpperCase();
   return (
     <>
-      <div className="grid grid-cols-[auto_auto] md:gap-x-2">
+      <div className="grid shrink-0 grid-cols-[auto_auto] md:gap-x-2 whitespace-nowrap">
         <p className=" font-poppins">
           {/* {currentTime.toDateString()}, {currentTime.toLocaleTimeString()} */}
           {date}

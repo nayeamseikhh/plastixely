@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <div className="py-4 xl:py-5 bg-black">
         <Container>
-          <div className=" flex md:gap-x-2  3xl:gap-x-4  md:text-[10px] lg:text-[13px] xl:text-[16px] 2xl:text-[19px] 3xl:text-xl justify-between">
+          <div className="flex items-center justify-between gap-x-2 whitespace-nowrap text-[clamp(9px,0.95vw,16px)] 2xl:gap-x-3">
             <NavLeftLayout />
             <NavRightLayout />
           </div>
