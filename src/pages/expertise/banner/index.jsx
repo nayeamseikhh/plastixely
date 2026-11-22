@@ -49,12 +49,12 @@ const ExpertiseBanner = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative h-[260px] sm:h-[350px] md:h-[500px] lg:h-[700px] w-full overflow-hidden">
+    <section className="relative h-65 sm:h-[350px] md:h-[500px] lg:h-[700px] w-full overflow-hidden">
       {/* Background Image */}
       <img
         src={expertise_banner}
         alt="Expertise Banner"
-        className="absolute inset-0 h-full w-full object-cover"
+        className="h-full w-full md:object-fill absolute inset-0"
       />
 
       {/* Overlay */}
