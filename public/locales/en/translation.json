@@ -161,6 +161,80 @@
   "mandatoryField": "Mandatory Field",
   "privacyConsent": "I consent to my data being submitted in accordance with the following privacy policy",
   "send": "SEND",
-  "recaptchaPrompt": "Please verify that you are not a robot."
+  "recaptchaPrompt": "Please verify that you are not a robot.",
+
+
+  "deliveryInformation": {
+    "title": "UK & International Delivery Information",
+    "intro": {
+      "beforeBrand": "At",
+      "afterBrand": "we aim to dispatch all orders quickly and safely to customers across the UK and worldwide using reliable local and global couriers—including",
+      "and": "and",
+      "ending": "—selected based on your location."
+    },
+    "orderProcessing": {
+      "title": "Order Processing & Dispatch",
+      "processingTime": {
+        "label": "Processing Time:",
+        "text": "In-stock orders are typically processed and dispatched within 1–2 working days of cleared payment (Monday through Friday, excluding bank/public holidays). Orders placed over the weekend or on a holiday will begin processing on the next working day."
+      },
+      "outOfStock": {
+        "label": "Out-of-Stock & Special Order Items:",
+        "text": "If an item is not currently listed as in-stock, dispatch and delivery timeframes will differ from our standard schedule. Feel free to reach out to us for current lead times before placing your order."
+      },
+      "multipleOrders": {
+        "label": "Multiple-Item Orders:",
+        "text": "If your order contains both in-stock and special-order items, we may hold the order until all items are ready or suitable replacement items are available at our discretion."
+      },
+      "clickCollect": {
+        "label": "Click & Collect (Widnes):",
+        "text": "Local collection from our Widnes warehouse is available by prior arrangement. Please contact us before ordering to confirm stock availability and arrange a collection time."
+      }
+    },
+    "shipping": {
+      "title": "Shipping & Logistics",
+      "ukDomestic": {
+        "label": "United Kingdom Domestic Shipping:",
+        "text": "Available via fully tracked and insured courier services. Standard UK mainland deliveries typically arrive within 1–3 working days of dispatch. Please note that couriers do not operate on UK bank or public holidays, so no deliveries take place on those dates. Shipping charges will be calculated and added to the final invoice based on your delivery address."
+      },
+      "highlands": {
+        "label": "UK Highlands & Islands:",
+        "text": "Deliveries to Northern Ireland, the Scottish Highlands and Islands, the Isle of Man, and the Channel Islands may incur additional courier surcharges and require an extra 1–2 working days for transit."
+      },
+      "international": {
+        "label": "International Shipping:",
+        "text": "Global delivery is available. Prospective international buyers are requested to message us directly with their country and postal code to receive a competitive, custom freight quotation."
+      },
+      "customs": {
+        "label": "Customs, Duties & Taxes:",
+        "text": "International orders are shipped on a Delivered Duty Unpaid (DDU) basis unless stated otherwise at checkout. Any local import duties, customs fees, or VAT applied by the destination country are the responsibility of the buyer."
+      },
+      "tracking": {
+        "label": "Order Tracking & Proof of Delivery:",
+        "text": "Once your order leaves our Widnes warehouse, you will receive an email confirmation containing your tracking number and a direct courier link to follow your delivery. High-value orders and specialist courier shipments require a signature upon delivery, so please ensure someone is available at the delivery address to sign for the parcel."
+      }
+    },
+    "heavyItems": {
+      "title": "Heavy, Bulky & Restricted Items",
+      "text": "Certain oversized automotive components, heavy power tools, or items containing lithium-ion batteries may require specialist courier handling and can be subject to regional shipping restrictions. Any applicable surcharges will be clearly calculated at checkout."
+    },
+    "deliveryIssues": {
+      "title": "Delivery Issues & Damaged Parcels",
+      "address": {
+        "label": "Delivery Address & Failed Attempts:",
+        "text": "Please ensure your shipping address and contact details are accurate at checkout. If a parcel is returned to our Widnes warehouse due to an incorrect address or repeated missed delivery attempts, a redelivery fee may apply."
+      },
+      "damaged": {
+        "label": "Damaged or Missing Items:",
+        "text": "Please inspect your parcel upon arrival. If an item arrives damaged in transit or if your order is incomplete, please notify us at info@plastixley.com within 48 hours of delivery, including clear photos of the packaging and item, so we can resolve this promptly with the courier."
+      }
+    },
+    "support": {
+      "title": "Questions & Support",
+      "textBeforeEmail": "If you have questions about an existing delivery or need a custom shipping quote for a bulk or international order, please contact our team at",
+      "textAfterEmail": "with your order number or delivery postcode. For information on returning an item, please see our Returns & Refunds Policy."
+    }
+  }
+
 
 }

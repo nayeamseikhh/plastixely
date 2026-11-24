@@ -161,7 +161,81 @@
   "mandatoryField": "Champ obligatoire",
   "privacyConsent": "J'accepte que mes données soient transmises conformément à la politique de confidentialité suivante",
   "send": "ENVOYER",
-  "recaptchaPrompt": "Veuillez confirmer que vous n'êtes pas un robot."
+  "recaptchaPrompt": "Veuillez confirmer que vous n'êtes pas un robot.",
+
+
+
+  "deliveryInformation": {
+    "title": "Informations sur les livraisons au Royaume-Uni et à l'international",
+    "intro": {
+      "beforeBrand": "Chez",
+      "afterBrand": "nous nous efforçons d'expédier toutes les commandes rapidement et en toute sécurité à nos clients au Royaume-Uni et dans le monde entier, en utilisant des transporteurs locaux et internationaux fiables, notamment",
+      "and": "et",
+      "ending": "— sélectionnés en fonction de votre emplacement."
+    },
+    "orderProcessing": {
+      "title": "Traitement des commandes et expédition",
+      "processingTime": {
+        "label": "Délai de traitement :",
+        "text": "Les commandes en stock sont généralement traitées et expédiées dans un délai de 1 à 2 jours ouvrables après réception du paiement (du lundi au vendredi, hors jours fériés). Les commandes passées pendant le week-end ou un jour férié seront traitées le jour ouvrable suivant."
+      },
+      "outOfStock": {
+        "label": "Articles en rupture de stock et commandes spéciales :",
+        "text": "Si un article n'est pas actuellement disponible en stock, les délais d'expédition et de livraison peuvent différer de notre calendrier habituel. N'hésitez pas à nous contacter pour connaître les délais actuels avant de passer votre commande."
+      },
+      "multipleOrders": {
+        "label": "Commandes multiples :",
+        "text": "Si votre commande contient à la fois des articles en stock et des articles sur commande spéciale, nous pouvons retenir la commande jusqu'à ce que tous les articles soient prêts ou que des articles de remplacement appropriés soient disponibles, à notre discrétion."
+      },
+      "clickCollect": {
+        "label": "Click & Collect (Widnes) :",
+        "text": "Le retrait local dans notre entrepôt de Widnes est disponible sur rendez-vous préalable. Veuillez nous contacter avant de commander afin de confirmer la disponibilité du stock et de convenir d'une heure de retrait."
+      }
+    },
+    "shipping": {
+      "title": "Expédition et logistique",
+      "ukDomestic": {
+        "label": "Livraison nationale au Royaume-Uni :",
+        "text": "Disponible via des services de messagerie entièrement suivis et assurés. Les livraisons standard au Royaume-Uni arrivent généralement dans un délai de 1 à 3 jours ouvrables après expédition. Veuillez noter que les transporteurs ne livrent pas les dimanches ni les jours fériés, les livraisons n'auront donc pas lieu à ces dates. Les frais d'expédition seront calculés et ajoutés à la facture finale en fonction de votre adresse de livraison."
+      },
+      "highlands": {
+        "label": "Highlands et îles du Royaume-Uni :",
+        "text": "Les livraisons vers l'Irlande du Nord, les Highlands écossais et les îles, l'île de Man et les îles Anglo-Normandes peuvent entraîner des suppléments de transporteur et nécessiter 1 à 2 jours ouvrables supplémentaires pour le transit."
+      },
+      "international": {
+        "label": "Livraison internationale :",
+        "text": "La livraison mondiale est disponible. Les acheteurs internationaux potentiels sont invités à nous contacter directement en indiquant leur pays et leur code postal afin de recevoir un devis de transport personnalisé et compétitif."
+      },
+      "customs": {
+        "label": "Douanes, droits et taxes :",
+        "text": "Les commandes internationales sont expédiées selon les conditions Delivered Duty Unpaid (DDU), sauf indication contraire au moment du paiement. Les éventuels droits d'importation locaux, frais de douane ou taxes sur la valeur ajoutée (TVA) appliqués par le pays de destination sont à la charge de l'acheteur."
+      },
+      "tracking": {
+        "label": "Suivi de commande et preuve de livraison :",
+        "text": "Une fois votre commande expédiée depuis notre entrepôt de Widnes, vous recevrez un e-mail de confirmation contenant votre numéro de suivi et un lien direct vers le site du transporteur pour suivre votre livraison. Les commandes de grande valeur et les envois spéciaux peuvent nécessiter une signature à la livraison. Veuillez donc vous assurer qu'une personne est disponible à l'adresse de livraison pour signer le colis."
+      }
+    },
+    "heavyItems": {
+      "title": "Articles lourds, volumineux et soumis à des restrictions",
+      "text": "Certains composants automobiles volumineux, outils électriques lourds ou articles contenant des batteries lithium-ion peuvent nécessiter une manutention spécialisée par le transporteur et être soumis à des restrictions régionales d'expédition. Les éventuels suppléments applicables seront clairement indiqués lors du paiement."
+    },
+    "deliveryIssues": {
+      "title": "Problèmes de livraison et colis endommagés",
+      "address": {
+        "label": "Adresse de livraison et tentatives de livraison infructueuses :",
+        "text": "Veuillez vous assurer que votre adresse de livraison et vos coordonnées sont exactes au moment du paiement. Si un colis nous est retourné à notre entrepôt de Widnes en raison d'une adresse incorrecte ou de tentatives de livraison répétées infructueuses, des frais de réexpédition ou de retour peuvent s'appliquer."
+      },
+      "damaged": {
+        "label": "Articles endommagés ou manquants :",
+        "text": "Veuillez inspecter votre colis dès son arrivée. Si un article arrive endommagé pendant le transport ou si votre commande est incomplète, veuillez nous en informer dans les 48 heures suivant la livraison, en joignant des photos claires de l'emballage et de l'article, afin que nous puissions résoudre rapidement le problème."
+      }
+    },
+    "support": {
+      "title": "Questions et assistance",
+      "textBeforeEmail": "Si vous avez des questions concernant une commande existante ou si vous avez besoin d'un devis de livraison personnalisé pour une commande en gros ou internationale, veuillez contacter notre équipe à l'adresse",
+      "textAfterEmail": "en indiquant votre numéro de commande ou votre code postal de livraison. Pour plus d'informations sur les retours, veuillez consulter notre Politique de retours et de remboursements."
+    }
+  }
 
 
 

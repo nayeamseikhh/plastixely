@@ -1,5 +1,6 @@
 
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
 
 const FooterLayout02 = () => {
   const { t } = useTranslation();
@@ -14,9 +15,7 @@ const FooterLayout02 = () => {
         {t("getInTouch")}
       </p>
 
-      <p className="whitespace-normal text-white font-poppins font-semibold">
-        {t("deliveryInformation")}
-      </p>
+      <Link className="whitespace-normal text-white font-poppins font-semibold" to="/delivery-information">{t("deliveryInformation")}</Link>
 
       <p className="whitespace-normal text-white font-poppins font-semibold">
         {t("warranty")}
